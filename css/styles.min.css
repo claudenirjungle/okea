@@ -5,7 +5,7 @@
     --brandOrange: #F89C43;
     --light: #F5F8F2;
     --gray: #B7B7B7;
-    --gray-2: #15202B;
+    --gray-2: #0E2A52;
     --dark: #121212;
 }
 
@@ -1555,7 +1555,7 @@ div.carousel-nav-icon>svg {
 }
 
 /* ===== HOME REDESIGN v3 (Figma exact) ===== */
-.text-brand{color:#00b7d5}.text-orange-brand{color:#F89C43}
+.text-brand{color:#0E2A52}.text-orange-brand{color:#F89C43}
 .client-logo-static{max-height:44px;max-width:130px;width:auto;height:auto;object-fit:contain;filter:grayscale(1);opacity:.65;transition:200ms ease-in-out}.client-logo-static:hover{filter:grayscale(0);opacity:1}
 
 /* Client logo ticker */
@@ -1572,7 +1572,7 @@ div.carousel-nav-icon>svg {
 
 /* Consistent section max-width for problem section */
 .home-problem-section .container{max-width:1200px;padding-left:32px;padding-right:32px}
-.section-label{display:inline-flex !important;align-items:center;gap:8px;font-family:'capturabold',sans-serif;font-size:13px;color:#005495;letter-spacing:1.3px;text-transform:uppercase}.section-label::before{content:'';display:inline-block;width:22px;height:2px;background:#f79b42;border-radius:2px;flex-shrink:0}
+.section-label{display:inline-flex !important;align-items:center;gap:8px;font-family:'capturabold',sans-serif;font-size:13px;color:#005496;letter-spacing:1.3px;text-transform:uppercase}.section-label::before{content:'';display:inline-block;width:22px;height:2px;background:#005496;border-radius:2px;flex-shrink:0}
 
 /* Captura font applied globally */
 h1,h2,h3,h4,h5,h6{font-family:'capturabold',sans-serif}
@@ -1582,8 +1582,8 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
 /* Problem section photo */
 .problem-photo{border-radius:23px;object-fit:cover;width:100%;max-height:340px;object-position:center}
 
-/* Section heading color fix (Figma: #15202b, existing bold-gray uses #707070) */
-.hs-header .bold-gray,.hf-heading .bold-gray,.hm-left .bold-gray,.ht-header .bold-gray{color:#15202b}
+/* Section heading color fix (Figma: #0E2A52, existing bold-gray uses #707070) */
+.hs-header .bold-gray,.hf-heading .bold-gray,.hm-left .bold-gray,.ht-header .bold-gray{color:#0E2A52}
 
 /* Solutions Cards */
 .hs-section{background:#e1f7fd;padding:64px 0}
@@ -1601,8 +1601,8 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
 .hs-badge{font-family:'capturabold',sans-serif;font-size:11px;padding:4px 10px;border-radius:99px;letter-spacing:.5px;white-space:nowrap}
 .hs-badge-blue{background:#e1f7fd;color:#005495}
 .hs-badge-orange{background:#fce6cb;color:#e27f1e}
-.hs-card-title{font-family:'capturabold',sans-serif;font-size:22px;color:#14202a;margin-bottom:8px;line-height:1.25;flex:0}
-.hs-card-desc{font-family:'capturaregular',sans-serif;font-size:16px;color:#15202B;line-height:1.5;flex:1;margin-bottom:20px}
+.hs-card-title{font-family:'capturabold',sans-serif;font-size:22px;color:#0E2A52;margin-bottom:8px;line-height:1.25;flex:0}
+.hs-card-desc{font-family:'capturaregular',sans-serif;font-size:16px;color:#0E2A52;line-height:1.5;flex:1;margin-bottom:20px}
 .hs-card-link{font-family:'capturaregular',sans-serif;font-size:16px;color:#015395;text-decoration:none;margin-top:auto}
 .hs-card-link:hover{text-decoration:underline}
 
@@ -1615,35 +1615,35 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
 .hf-col{flex:1;padding:32px;display:flex;flex-direction:column}
 .hf-divider{width:1px;background:rgba(0,0,0,.25);flex-shrink:0}
 .hf-icon-wrap{width:46px;height:46px;border-radius:12px;background:#e1f7fd;display:flex;align-items:center;justify-content:center;flex-shrink:0}
-.hf-col-title{font-family:'capturabold',sans-serif;font-size:20px;color:#14202a;margin:16px 0 8px}
-.hf-col-desc{font-family:'capturaregular',sans-serif;font-size:16px;color:#15202B;line-height:1.5;margin:0}
+.hf-col-title{font-family:'capturabold',sans-serif;font-size:20px;color:#0E2A52;margin:16px 0 8px}
+.hf-col-desc{font-family:'capturaregular',sans-serif;font-size:16px;color:#0E2A52;line-height:1.5;margin:0}
 
 /* Metrics */
 .hm-section{background:#fff;padding:64px 0}
 .hm-container{max-width:1200px;margin:0 auto;padding:0 32px;display:flex;gap:64px;align-items:stretch}
 .hm-left{flex:1}
-.hm-title{font-size:40px;margin-top:12px;letter-spacing:-.36px;color:#15202b}
+.hm-title{font-size:40px;margin-top:12px;letter-spacing:-.36px;color:#0E2A52}
 .hm-desc{font-family:'capturaregular',sans-serif;font-size:19px;color:#45525e;line-height:1.5;margin-top:16px}
 .hm-right{flex:1;display:flex}
 .hm-grid{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:20px;width:100%}
 .hm-card{background:#fff;border:1px solid #dce4eb;box-shadow:0 0 6px rgba(0,0,0,.06);border-radius:14px;padding:24px 28px;display:flex;flex-direction:column;justify-content:space-between;gap:16px}
 .hm-card-label{font-family:'capturabold',sans-serif;font-size:13px;color:#7a8896;letter-spacing:.78px;text-transform:uppercase;margin-bottom:0}
 .hm-card-row{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
-.hm-number{font-family:'capturalight',sans-serif;font-size:46px;color:#15202b;line-height:1}
+.hm-number{font-family:'capturalight',sans-serif;font-size:46px;color:#0E2A52;line-height:1}
 .hm-suffix{font-family:'capturabold',sans-serif;font-size:16px;color:#005495}
 
 /* Testimonials */
 .ht-section{background:#f5f8fa;padding:64px 0}
 .ht-container{max-width:1200px;margin:0 auto;padding:0 32px}
 .ht-header{text-align:center;margin-bottom:40px}
-.ht-title{font-size:40px;margin-top:12px;letter-spacing:-.36px;color:#15202b}
+.ht-title{font-size:40px;margin-top:12px;letter-spacing:-.36px;color:#0E2A52}
 .ht-grid{display:grid;grid-template-columns:1fr 1fr;gap:32px}
 .ht-card{background:#fff;border:1px solid #dce4eb;box-shadow:0 8px 14px rgba(20,65,140,.1);border-radius:16px;padding:33px 35px;display:flex;flex-direction:column}
 .ht-quote{font-family:'capturabold',sans-serif;font-size:46px;color:#00b7d5;line-height:32.2px;margin-bottom:13px}
 .ht-text{font-family:'capturaregular',sans-serif;font-size:18px;color:rgba(0,0,0,.7);line-height:1.5;flex:1;margin-bottom:24px}
 .ht-footer{border-top:1px solid #dce4eb;padding-top:21px;display:flex;align-items:center;gap:14px}
 .ht-avatar{width:54px;height:54px;border-radius:50%;object-fit:cover;flex-shrink:0}
-.ht-name{font-family:'capturabold',sans-serif;font-size:16px;color:#15202b;margin:0}
+.ht-name{font-family:'capturabold',sans-serif;font-size:16px;color:#0E2A52;margin:0}
 .ht-company{font-family:'capturaregular',sans-serif;font-size:13.5px;color:#7a8896;margin:0}
 
 /* Final CTA */
@@ -1712,7 +1712,7 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
     padding: 138px 0 64px;
 }
 .ast-hero .section-label {
-    color: rgba(255, 255, 255, .85);
+    color: #005496;
 }
 .ast-hero-title {
     font-family: 'capturaregular', sans-serif;
@@ -1765,7 +1765,7 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
     font-size: 36px;
     line-height: 1.2;
     letter-spacing: -.36px;
-    color: #15202b;
+    color: #0E2A52;
     margin: 0;
 }
 .ast-prog-desc {
@@ -1875,7 +1875,7 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
     font-size: 40px;
     line-height: 1.2;
     letter-spacing: -.86px;
-    color: #15202b;
+    color: #0E2A52;
     margin: 0;
 }
 .akt-lead {
@@ -1925,7 +1925,7 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
     font-family: 'capturabold', sans-serif;
     font-size: 21px;
     line-height: 1.2;
-    color: #15202b;
+    color: #0E2A52;
     margin: 0 0 10px;
 }
 .akt-card-desc {
@@ -2003,7 +2003,7 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
 .akt-step h3 {
     font-family: 'capturabold', sans-serif;
     font-size: 17px;
-    color: #15202b;
+    color: #0E2A52;
     margin: 0 0 8px;
 }
 .akt-step p {
@@ -2109,7 +2109,7 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
 .akt-eco-card h3 {
     font-family: 'capturabold', sans-serif;
     font-size: 21px;
-    color: #15202b;
+    color: #0E2A52;
     margin: 0;
 }
 .akt-eco-card p {
@@ -2154,7 +2154,7 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
     padding: 22px 4px;
     font-family: 'capturabold', sans-serif;
     font-size: 18px;
-    color: #15202b;
+    color: #0E2A52;
 }
 .akt-faq summary::-webkit-details-marker { display: none; }
 .akt-faq-ic {
@@ -2211,7 +2211,7 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
 .akt-trial-card h4 {
     font-family: 'capturabold', sans-serif;
     font-size: 16px;
-    color: #15202b;
+    color: #0E2A52;
     margin: 0 0 6px;
 }
 .akt-trial-card p {
@@ -2230,16 +2230,16 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
 .akt-btn-outline {
     display: inline-flex;
     align-items: center;
-    border: 1px solid #15202b;
+    border: 1px solid #0E2A52;
     border-radius: 99px;
     padding: 14px 32px;
     font-family: 'capturabold', sans-serif;
     font-size: 16px;
-    color: #15202b;
+    color: #0E2A52;
     text-decoration: none;
     transition: 300ms ease-in-out;
 }
-.akt-btn-outline:hover { background: #15202b; color: #fff; }
+.akt-btn-outline:hover { background: #0E2A52; color: #fff; }
 
 /* Responsivo AKTIAN */
 @media (max-width: 991px) {
@@ -2418,7 +2418,7 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
 .sen-okea-title {
     font-family: 'capturabold', sans-serif;
     font-size: 16px;
-    color: #15202b;
+    color: #0E2A52;
     margin-left: 8px;
 }
 .sen-okea-body { display: flex; flex-direction: column; gap: 12px; padding: 18px 18px 30px; }
@@ -2443,7 +2443,7 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
 }
 .sen-okea-ic svg { width: 27px; height: 27px; stroke: #fff; }
 .sen-okea-txt { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2.5px; }
-.sen-okea-txt strong { font-family: 'capturabold', sans-serif; font-size: 16px; color: #15202b; font-weight: normal; }
+.sen-okea-txt strong { font-family: 'capturabold', sans-serif; font-size: 16px; color: #0E2A52; font-weight: normal; }
 .sen-okea-txt span { font-family: 'capturaregular', sans-serif; font-size: 13px; color: #7a8896; }
 .sen-okea-txt span.is-orange { color: #e27f1e; }
 .sen-pill {
@@ -2509,7 +2509,7 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
 .sen-road-title {
     font-family: 'capturabold', sans-serif;
     font-size: 18px;
-    color: #15202b;
+    color: #0E2A52;
     margin: 8px 0 0;
 }
 .sen-road-desc {
@@ -2576,7 +2576,7 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
     border-radius: 99px;
     border: 1px solid rgba(0, 0, 0, .25);
     background: transparent;
-    color: #15202b;
+    color: #0E2A52;
     font-family: 'capturabold', sans-serif;
     font-size: 16px;
     line-height: 1.5;
@@ -2630,7 +2630,7 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
     font-family: 'capturabold', sans-serif;
     font-size: 21px;
     line-height: 1.2;
-    color: #15202b;
+    color: #0E2A52;
     margin: 0;
 }
 .nv-card-desc {
@@ -2675,7 +2675,7 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
 .ct-label {
     font-family: 'capturabold', sans-serif;
     font-size: 13.5px;
-    color: #15202b;
+    color: #0E2A52;
 }
 .ct-label .req { color: #f79b42; }
 .ct-input,
@@ -2688,7 +2688,7 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
     padding: 14.5px 16.5px;
     font-family: 'capturaregular', sans-serif;
     font-size: 15px;
-    color: #15202b;
+    color: #0E2A52;
     transition: border-color 150ms, background 150ms;
 }
 .ct-input::placeholder,
@@ -2849,7 +2849,7 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
     color: #fff; display: flex; align-items: center; justify-content: center;
     font-family: 'capturabold', sans-serif; font-size: 19px;
 }
-.lp-step h4 { font-family: 'capturabold', sans-serif; font-size: 17px; color: #15202b; margin: 11px 0 6px; }
+.lp-step h4 { font-family: 'capturabold', sans-serif; font-size: 17px; color: #0E2A52; margin: 11px 0 6px; }
 .lp-step p { font-family: 'capturaregular', sans-serif; font-size: 14.5px; line-height: 1.5; color: #45525e; margin: 0; }
 .lp-step:not(:last-child)::after {
     content: ''; position: absolute; right: -15px; top: 46px;
@@ -2864,7 +2864,7 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
 }
 .lp-diff-ic { width: 42px; height: 42px; border-radius: 11px; background: #e1f7fd; display: flex; align-items: center; justify-content: center; margin-bottom: 10px; }
 .lp-diff-ic svg { width: 22px; height: 22px; stroke: #00b7d5; }
-.lp-diff-card h4 { font-family: 'capturabold', sans-serif; font-size: 16px; color: #15202b; margin: 0 0 6px; }
+.lp-diff-card h4 { font-family: 'capturabold', sans-serif; font-size: 16px; color: #0E2A52; margin: 0 0 6px; }
 .lp-diff-card p { font-family: 'capturaregular', sans-serif; font-size: 13.5px; line-height: 1.45; color: #45525e; margin: 0; }
 
 /* INDICADORES */
@@ -2999,7 +2999,7 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
 }
 .sb-tl-title {
     font-family: 'capturabold', sans-serif; font-size: 19px;
-    color: #15202b; margin: 5px 0 7px;
+    color: #0E2A52; margin: 5px 0 7px;
 }
 .sb-tl-text {
     font-family: 'capturaregular', sans-serif; font-size: 15.5px;
