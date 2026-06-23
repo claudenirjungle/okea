@@ -3039,3 +3039,5 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
     .sb-dna { flex-direction: column; text-align: center; padding: 32px; gap: 24px; }
     .sb-values { grid-template-columns: 1fr; }
 }
+
+.news-open-cover{width:100%;height:auto;border-radius:16px;display:block;margin-bottom:32px}
