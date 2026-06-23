@@ -2962,7 +2962,8 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
 /* DNA — Grupo Nabhan */
 .sb-dna {
     display: flex; align-items: center; gap: 44px;
-    background: #e1f7fd; border-radius: 16px;
+    background: #fff; border: 1px solid #dce4eb; border-radius: 16px;
+    box-shadow: 0 8px 14px rgba(20, 65, 140, .1);
     padding: 32px 52px; width: 100%;
 }
 .sb-dna-badge { flex-shrink: 0; width: 154px; height: 154px; display: block; }
