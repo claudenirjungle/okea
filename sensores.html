@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/jpg" href="img/favicon.png" />
+        
+        <link rel="canonical" href="https://www.okea.com.br/" />
+    	<meta property="og:locale" content="pt-BR" />
+    	<meta property="og:type" content="website" />
+    	<meta property="og:title" content="ÓKEA" />
+    	<meta property="og:description" content="Planeje melhor. Encontre falhas. Evite prejuízos." />
+    	<meta property="og:url" content="https://www.okea.com.br/" />
+    	<meta property="og:site_name" content="ÓKEA" />
+
+        <title>ÓKEA - Sensores (IoT)</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+
+        <link rel="stylesheet" href="css/styles.min.css">
+
+        <!-- Meta Pixel Code -->
+        <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1296453075169826');
+        fbq('track', 'PageView');
+        </script>
+        <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=1296453075169826&ev=PageView&noscript=1"
+        /></noscript>
+        <!-- End Meta Pixel Code -->
+
+        <!-- Meta Pixel Code -->
+        <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '191355459261828');
+        fbq('track', 'PageView');
+        </script>
+        <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=191355459261828&ev=PageView&noscript=1"
+        /></noscript>
+        <!-- End Meta Pixel Code -->
+
+    </head>
+    <body>
+        
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" role="status" style="width: 7rem; height: 7rem;"></div>
+        </div>
+        
+                        <div class="fixed-top nav-home">
+    <div class="top-border"></div>
+    <header class="p-2 bg-nav">
+        <div class="container">
+            <div
+                class="d-flex flex-wrap align-items-center justify-content-between navbar navbar-expand-xl gap-3">
+
+                <div
+                    class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-start gap-md-5">
+                    <div>
+                        <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0">
+                            <img class="img-fluid nav-logo" src="img/okea-logo.svg" alt="Logo">
+                        </a>
+                    </div>
+
+                    <div class="nav collapse navbar-collapse">
+                        <ul
+                            class="nav nav-pills-okea col-12 col-md-auto me-md-auto mb-2 justify-content-center mb-md-0 text-uppercase">
+                            <li><a href="sobre.html" class="nav-item nav-link ">SOBRE</a></li>
+                            <li class="nav-dropdown">
+                                <button type="button" class="nav-item nav-link nav-dropdown-toggle active" aria-haspopup="true" aria-expanded="false">
+                                    SOLUÇÕES
+                                    <i data-lucide="chevron-down" class="nav-dropdown-caret"></i>
+                                </button>
+                                <ul class="nav-dropdown-menu">
+                                    <li><a href="asterian.html" class="nav-dropdown-link ">Asterian</a></li>
+                                    <li><a href="aktian.html" class="nav-dropdown-link ">Aktian</a></li>
+                                    <li><a href="sensores.html" class="nav-dropdown-link active">Sensores</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="nav-item nav-link ">Novidades</a></li>
+                            <li><a href="contato.html" class="nav-item nav-link ">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="d-flex">
+                <div class="justify-content-lg-end d-none d-lg-flex align-items-center justify-content-center">
+                    <div class="lang me-4">
+                        <form action="#" method="POST" class="inline-block text-white">
+                            <input type="hidden" name="_token" value="mkjdId6Dg6aFb5H3qNbyMYKb39dS9sXizJPNulGh" autocomplete="off">                            <button type="submit" name="language" value="pt-BR"
+                                class="btn-lang selected">
+                                PT
+                            </button>
+                            <span class="bar-div">/</span>
+                            <button type="submit" name="language" value="en"
+                                class="btn-lang ">
+                                EN
+                            </button>
+                            <span class="bar-div">/</span>
+                            <button type="submit" name="language" value="es"
+                                class="btn-lang ">
+                                ES
+                            </button>
+                        </form>
+                    </div>
+                    <div class="d-flex gap-2">
+                        <a href="https://www.instagram.com/okeatecnologia/" target="_blank" rel="noopener" class="social-circle" aria-label="Instagram">
+                            <img src="img/icon-social-instagram.svg" alt="Instagram">
+                        </a>
+                        <a href="https://www.facebook.com/okeatecnologia" target="_blank" rel="noopener" class="social-circle" aria-label="Facebook">
+                            <img src="img/icon-social-facebook.svg" alt="Facebook">
+                        </a>
+                        <a href="https://www.linkedin.com/company/virtual-loom/" target="_blank" rel="noopener" class="social-circle" aria-label="LinkedIn">
+                            <img src="img/icon-social-linkedin.svg" alt="LinkedIn">
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <button type="button" class="navbar-toggler ms-4 me-0" data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse" aria-expanded="false" aria-controls="navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+            </div>
+
+
+
+            </div>
+            <div class="nav-mob nav collapse navbar-nav text-center text-md-end mt-2" id="navbarCollapse"
+                aria-expanded="false">
+
+
+                <ul class="mb-2 nav d-block justify-content-center mb-md-0 text-uppercase list-mob">
+                    <li class="d-block d-lg-none pe-md-3 py-2 py-md-0">
+                        <div class="lang justify-content-center justify-content-md-end">
+                            <form action="#" method="POST" class="inline-block text-white">
+                                <input type="hidden" name="_token" value="mkjdId6Dg6aFb5H3qNbyMYKb39dS9sXizJPNulGh" autocomplete="off">                                <button type="submit" name="language" value="pt-BR"
+                                    class="btn-lang text-mob selected">
+                                    PT
+                                </button>
+                                <span class="bar-div">/</span>
+                                <button type="submit" name="language" value="en"
+                                    class="btn-lang text-mob ">
+                                    EN
+                                </button>
+                                <span class="bar-div">/</span>
+                                <button type="submit" name="language" value="es"
+                                    class="btn-lang text-mob ">
+                                    ES
+                                </button>
+                            </form>
+                        </div>
+                    </li>
+                    <li class="d-block d-lg-none pe-md-3 py-2 py-md-0">
+                        <div class="d-flex gap-4 justify-content-center justify-content-md-end">
+                            <a href="https://www.instagram.com/okeatecnologia/" target="_blank" rel="noopener" class="social-circle" aria-label="Instagram">
+                                <img src="img/icon-social-instagram.svg" alt="Instagram">
+                            </a>
+                            <a href="https://www.facebook.com/okeatecnologia" target="_blank" rel="noopener" class="social-circle" aria-label="Facebook">
+                                <img src="img/icon-social-facebook.svg" alt="Facebook">
+                            </a>
+                            <a href="https://www.linkedin.com/company/virtual-loom/" target="_blank" rel="noopener" class="social-circle" aria-label="LinkedIn">
+                                <img src="img/icon-social-linkedin.svg" alt="LinkedIn">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="py-2 py-md-0"><a href="sobre.html" class="nav-item nav-link">SOBRE</a></li>
+                    <li class="pt-2 pb-1 py-md-0"><span class="nav-link nav-mob-group-label">SOLUÇÕES</span></li>
+                    <li class="py-1 py-md-0"><a href="asterian.html" class="nav-item nav-link nav-mob-sublink">Asterian</a></li>
+                    <li class="py-1 py-md-0"><a href="aktian.html" class="nav-item nav-link nav-mob-sublink">Aktian</a></li>
+                    <li class="pt-1 pb-2 py-md-0"><a href="sensores.html" class="nav-item nav-link nav-mob-sublink">Sensores</a></li>
+                    <li class="py-2 py-md-0"><a href="#" class="nav-item nav-link">Novidades</a></li>
+                    <li class="py-2 py-md-0"><a href="contato.html" class="nav-item nav-link">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+</div>
+                <main>
+            <div class="container-fluid">
+                <div>
+
+                    
+    <section class="ast-hero sen-hero">
+    <div class="ast-container">
+        <div class="row align-items-center g-5">
+            <div class="col-12 col-lg-6 d-flex flex-column align-items-start gap-3">
+                <span class="section-label">em breve · visão de futuro</span>
+                <h1 class="ast-hero-title">Sua <b>manutenção de hoje</b>, desenhada para os <span class="o">sensores de amanhã.</span></h1>
+                <p class="ast-hero-desc">Guias práticos sobre execução da produção, indicadores do chão de fábrica e organização da manutenção.</p>
+                <div class="sen-hero-btns mt-2">
+                    <a href="contato.html" class="btn-orange d-inline-flex align-items-center gap-2">
+                        Falar com especialista
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12 16 16 12 12 8"/>
+                            <line x1="8" y1="12" x2="16" y2="12"/>
+                        </svg>
+                    </a>
+                    <a href="sensores.html#sen-roadmap" class="sen-btn-outline-white">Ver o roadmap</a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 text-center">
+                <img src="img/sensores-hero-card.png" alt="Painel de monitoramento de energia e vibração" class="sen-hero-card img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="akt-section akt-bg-white">
+    <div class="ast-container">
+        <div class="akt-head" style="max-width:900px;margin-bottom:0;gap:16px">
+            <span class="section-label">A CAMADA DE EVOLUÇÃO DO ECOSSISTEMA</span>
+            <h2 class="akt-h2">Uma rotina clara para <span class="text-brand">registrar, acompanhar e gerenciar</span>.</h2>
+            <p class="akt-lead" style="max-width:780px">Os sensores são o próximo passo natural de quem já controla produção com o Asterian e manutenção com o Aktian. Você investe no fluxo digital agora, com a garantia de uma plataforma já projetada para a conectividade física de amanhã.</p>
+        </div>
+    </div>
+</section>
+    <section class="akt-section akt-bg-cyan">
+    <div class="ast-container">
+        <div class="akt-head">
+            <span class="section-label">O QUE SERÁ MONITORADO</span>
+            <h2 class="akt-h2">Dois sinais que <span class="text-brand">antecipam falhas</span>.</h2>
+        </div>
+
+        <div class="sen-tipo-grid">
+            
+            <div class="sen-tipo-card">
+                <div class="sen-tipo-head">
+                    <div class="sen-tipo-icon sen-ic-cyan">
+                        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <p class="sen-tipo-label">SENSOR DE ENERGIA</p>
+                        <h3 class="sen-tipo-title">Consumo elétrico</h3>
+                    </div>
+                </div>
+                <p class="sen-tipo-desc">Acompanhe o consumo de energia por máquina, setor e fábrica. Identifique desperdícios, compare turnos e relacione gasto energético à produção real.</p>
+                <ul class="ast-list sen-tipo-list">
+                    <li>Consumo por máquina, setor e planta</li>
+                    <li>Comparativo entre turnos e linhas</li>
+                    <li>Energia relacionada à produção (kWh por peça)</li>
+                </ul>
+                <div class="sen-mini">
+                    <div class="sen-mini-head">
+                        <span class="sen-mini-label">CONSUMO · SETOR A — HOJE</span>
+                        <span class="sen-mini-val sen-val-cyan">412 KWH</span>
+                    </div>
+                    <div class="sen-bars">
+                        <span style="height:55%"></span><span style="height:68%"></span><span style="height:46%"></span>
+                        <span style="height:82%"></span><span style="height:60%"></span><span style="height:74%"></span>
+                        <span style="height:43%"></span><span style="height:64%"></span><span style="height:52%"></span>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="sen-tipo-card">
+                <div class="sen-tipo-head">
+                    <div class="sen-tipo-icon sen-ic-orange">
+                        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 12h3l2.5 7 4-15 3.5 12 2-4h5"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <p class="sen-tipo-label">SENSOR DE VIBRAÇÃO</p>
+                        <h3 class="sen-tipo-title">Saúde dos ativos</h3>
+                    </div>
+                </div>
+                <p class="sen-tipo-desc">Meça a vibração de motores e equipamentos rotativos para detectar desgaste antes da quebra. Transforme a manutenção corretiva em preditiva com base em dados reais.</p>
+                <ul class="ast-list sen-tipo-list">
+                    <li>Condição de motores e ativos rotativos</li>
+                    <li>Alerta preditivo quando o padrão muda</li>
+                    <li>Abertura automática de OS no Aktian</li>
+                </ul>
+                <div class="sen-mini">
+                    <div class="sen-mini-head">
+                        <span class="sen-mini-label">VIBRAÇÃO · MOTOR 1234</span>
+                        <span class="sen-mini-val sen-val-orange">7.8 MM/S</span>
+                    </div>
+                    <svg class="sen-line" viewBox="0 0 436 42" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="0" y1="12" x2="436" y2="12" stroke="#f0b27a" stroke-width="1.5" stroke-dasharray="5 5"/>
+                        <polyline points="0,30 55,26 110,28 165,20 220,24 275,16 330,18 385,11 436,9" fill="none" stroke="#f79b42" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="akt-section akt-bg-white">
+    <div class="ast-container">
+        <div class="row align-items-center g-5">
+            <div class="col-12 col-lg-6">
+                <span class="section-label">CONEXÃO PRONTA PARA IOT</span>
+                <h2 class="akt-h2 mt-3">A plataforma já <span class="text-brand">nasce pronta</span> para os sensores.</h2>
+                <p class="akt-lead mt-3" style="font-size:18px">O Asterian e o Aktian já estruturam os dados da sua operação. Quando você decidir instalar os sensores, eles se conectam ao ecossistema que você já usa, sem trocar de ferramenta, sem recomeçar.</p>
+                <ul class="ast-list mt-4">
+                    <li>Software funciona hoje, de forma autônoma, via nuvem</li>
+                    <li>Hardware é opcional e entra quando fizer sentido para você</li>
+                    <li>Os dados de sensor conversam com produção e manutenção</li>
+                </ul>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="sen-okea-card">
+                    <div class="sen-okea-head">
+                        <span class="sen-dot" style="background:#ff6159"></span>
+                        <span class="sen-dot" style="background:#ffc02e"></span>
+                        <span class="sen-dot" style="background:#28c840"></span>
+                        <span class="sen-okea-title">Ecossistema ŌKEA</span>
+                    </div>
+                    <div class="sen-okea-body">
+                        <div class="sen-okea-row">
+                            <div class="sen-okea-ic" style="background:#00b7d5">
+                                <i data-lucide="bar-chart-2"></i>
+                            </div>
+                            <div class="sen-okea-txt">
+                                <strong>Asterian</strong>
+                                <span>Produção em tempo real</span>
+                            </div>
+                            <span class="sen-pill sen-pill-active"><i></i>Ativo</span>
+                        </div>
+                        <div class="sen-okea-row">
+                            <div class="sen-okea-ic" style="background:#005495">
+                                <i data-lucide="wrench"></i>
+                            </div>
+                            <div class="sen-okea-txt">
+                                <strong>Aktian</strong>
+                                <span>Manutenção integrada</span>
+                            </div>
+                            <span class="sen-pill sen-pill-active"><i></i>Ativo</span>
+                        </div>
+                        <div class="sen-okea-row is-soon">
+                            <div class="sen-okea-ic" style="background:#f79b42">
+                                <i data-lucide="activity"></i>
+                            </div>
+                            <div class="sen-okea-txt">
+                                <strong>Sensores</strong>
+                                <span class="is-orange">Slot pronto para conectar</span>
+                            </div>
+                            <span class="sen-pill sen-pill-soon">EM BREVE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section id="sen-roadmap" class="akt-section akt-bg-gray">
+    <div class="ast-container">
+        <div class="akt-head">
+            <span class="section-label">O CAMINHO ATÉ A MANUTENÇÃO PREDITIVA</span>
+            <h2 class="akt-h2">Um passo de cada vez, sem <span class="text-brand">recomeçar do zero</span>.</h2>
+        </div>
+
+        <div class="sen-roadmap">
+            <div class="sen-road-step">
+                <span class="sen-road-dot" style="border-color:#00b7d5"></span>
+                <span class="sen-road-phase">HOJE</span>
+                <h4 class="sen-road-title">Produção sob controle</h4>
+                <p class="sen-road-desc">O Asterian dá visibilidade em tempo real do chão de fábrica.</p>
+            </div>
+            <div class="sen-road-step">
+                <span class="sen-road-dot" style="border-color:#005495"></span>
+                <span class="sen-road-phase">AGORA</span>
+                <h4 class="sen-road-title">Manutenção digital</h4>
+                <p class="sen-road-desc">O Aktian organiza ordens de serviço, chamados e histórico por ativo.</p>
+            </div>
+            <div class="sen-road-step">
+                <span class="sen-road-dot" style="border-color:#f79b42"></span>
+                <span class="sen-road-phase">EM BREVE</span>
+                <h4 class="sen-road-title">Sensores conectados</h4>
+                <p class="sen-road-desc">Energia e vibração alimentam o ecossistema com dados de campo.</p>
+            </div>
+            <div class="sen-road-step">
+                <span class="sen-road-dot" style="border-color:#f79b42"></span>
+                <span class="sen-road-phase">FUTURO</span>
+                <h4 class="sen-road-title">Preditiva de verdade</h4>
+                <p class="sen-road-desc">O sistema antecipa a falha e aciona a manutenção antes da parada.</p>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="akt-section akt-bg-white">
+    <div class="ast-container">
+        <div class="akt-head">
+            <span class="section-label">POR QUE IMPORTA</span>
+            <h2 class="akt-h2">Decisões guiadas por <span class="text-brand">dados de campo</span>.</h2>
+        </div>
+
+        <div class="akt-grid-3">
+            <div class="akt-card">
+                <div class="akt-card-icon">
+                    <i data-lucide="triangle-alert"></i>
+                </div>
+                <h3 class="akt-card-title">Antecipe a parada</h3>
+                <p class="akt-card-desc">A mudança no padrão de vibração vira alerta antes da quebra, reduzindo paradas não planejadas.</p>
+            </div>
+            <div class="akt-card">
+                <div class="akt-card-icon">
+                    <i data-lucide="zap"></i>
+                </div>
+                <h3 class="akt-card-title">Energia sob controle</h3>
+                <p class="akt-card-desc">Enxergue onde a energia é consumida e relacione gasto energético à produção para cortar desperdício.</p>
+            </div>
+            <div class="akt-card">
+                <div class="akt-card-icon">
+                    <i data-lucide="trending-up"></i>
+                </div>
+                <h3 class="akt-card-title">Investimento que evolui</h3>
+                <p class="akt-card-desc">Comece pelo software e adicione hardware no ritmo da sua operação, sem trocar de plataforma.</p>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="akt-section akt-bg-cyan">
+    <div class="ast-container">
+        <div class="akt-head" style="max-width:900px">
+            <span class="section-label">PARTE DE ALGO MAIOR</span>
+            <h2 class="akt-h2">Os sensores completam o <span class="text-brand">ecossistema ŌKEA</span>.</h2>
+            <p class="akt-lead" style="max-width:790px">Produção, manutenção e monitoramento físico, três camadas conectadas em uma só visão da fábrica.</p>
+        </div>
+
+        <div class="akt-eco-row">
+            <div class="akt-eco-card">
+                <div class="akt-eco-icon">
+                    <i data-lucide="bar-chart-2"></i>
+                </div>
+                <h3>Asterian</h3>
+                <p>Execução da produção em tempo real.</p>
+            </div>
+
+            <div class="akt-eco-plus">+</div>
+
+            <div class="akt-eco-card">
+                <div class="akt-eco-icon">
+                    <i data-lucide="wrench"></i>
+                </div>
+                <h3>Aktian</h3>
+                <p>Gestão da manutenção integrada.</p>
+            </div>
+
+            <div class="akt-eco-plus">+</div>
+
+            <div class="akt-eco-card is-soon">
+                <div class="akt-eco-icon is-orange">
+                    <i data-lucide="activity"></i>
+                </div>
+                <h3 class="d-inline-flex align-items-center gap-2">Sensores <span class="sen-soon">EM BREVE</span></h3>
+                <p>Energia e vibração para a preditiva.</p>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="akt-section akt-bg-white">
+    <div class="ast-container">
+        <div class="akt-head">
+            <span class="section-label">DÚVIDAS FREQUENTES</span>
+            <h2 class="akt-h2">O que você precisa saber sobre os sensores.</h2>
+        </div>
+
+        <div class="akt-faq">
+            <details open>
+                <summary>É obrigatório ter os sensores instalados para usar o software?<span class="akt-faq-ic"></span></summary>
+                <p class="akt-faq-answer">Não. O software funciona imediatamente via nuvem, de forma autônoma. Os sensores são opcionais e servem para expansões futuras, quando você quiser evoluir para a manutenção preditiva.</p>
+            </details>
+            <details>
+                <summary>Quando os sensores estarão disponíveis?<span class="akt-faq-ic"></span></summary>
+                <p class="akt-faq-answer">Os sensores estão no roadmap do ecossistema ŌKEA. Fale com nossos especialistas para acompanhar a disponibilidade e participar das primeiras instalações.</p>
+            </details>
+            <details>
+                <summary>O que será monitorado?<span class="akt-faq-ic"></span></summary>
+                <p class="akt-faq-answer">Inicialmente, consumo de energia (por máquina, setor e planta) e vibração de motores e ativos rotativos, para antecipar falhas.</p>
+            </details>
+            <details>
+                <summary>Preciso trocar o Asterian ou o Aktian quando os sensores chegarem?<span class="akt-faq-ic"></span></summary>
+                <p class="akt-faq-answer">Não. Os sensores se conectam ao ecossistema que você já usa. Nada é substituído — os dados de campo apenas somam à produção e à manutenção.</p>
+            </details>
+        </div>
+    </div>
+</section>
+    <section class="hcta-section">
+    <div class="hcta-content">
+        <h2 class="hcta-title">Alcance suas metas com mais eficiência</h2>
+        <p class="hcta-desc">Conheça o Asterian com uma demonstração guiada ou experimente o Aktian gratuitamente por 7 dias.</p>
+        <div class="hcta-btns">
+            <a href="contato.html" class="hcta-btn">
+                Demonstração do Asterian
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
+            <a href="contato.html" class="hcta-btn">
+                7 dias grátis no Aktian
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+                </div>
+            </div>
+        </main>
+
+                        <footer class="ft-footer">
+    <div class="ft-main">
+        <div class="ft-brand">
+            <img src="img/okea-logo-blue.svg" alt="ÓKEA" class="ft-logo">
+            <p class="ft-desc">Atuamos exclusivamente na área de tecnologia, oferecendo soluções de inteligência para a indústria 4.0.</p>
+            <div class="ft-social">
+                <a href="https://www.instagram.com/okeatecnologia/" target="_blank" rel="noopener" class="social-circle" aria-label="Instagram">
+                    <img src="img/icon-social-instagram.svg" alt="Instagram">
+                </a>
+                <a href="https://www.facebook.com/okeatecnologia" target="_blank" rel="noopener" class="social-circle" aria-label="Facebook">
+                    <img src="img/icon-social-facebook.svg" alt="Facebook">
+                </a>
+                <a href="https://www.linkedin.com/company/virtual-loom/" target="_blank" rel="noopener" class="social-circle" aria-label="LinkedIn">
+                    <img src="img/icon-social-linkedin.svg" alt="LinkedIn">
+                </a>
+            </div>
+        </div>
+        <div class="ft-col">
+            <p class="ft-col-title">PLATAFORMA</p>
+            <a href="asterian.html" class="ft-link">Asterian (MES)</a>
+            <a href="aktian.html" class="ft-link">Aktian</a>
+            <a href="sensores.html" class="ft-link">Sensores</a>
+        </div>
+        <div class="ft-col">
+            <p class="ft-col-title">EMPRESA</p>
+<a href="sobre.html" class="ft-link">Sobre</a>
+            <a href="contato.html" class="ft-link">Contato</a>
+        </div>
+        <div class="ft-contact">
+            <div class="ft-contact-item">
+                <img src="img/icon-phone.svg" alt="" class="ft-contact-icon">
+                <p class="ft-contact-text">+55 (47) 3255-8383<br>+55 (47) 3255-8384</p>
+            </div>
+            <div class="ft-contact-item">
+                <img src="img/icon-envelope.svg" alt="" class="ft-contact-icon">
+                <p class="ft-contact-text"><a href="mailto:falecom@okea.com.br">falecom@okea.com.br</a></p>
+            </div>
+            <div class="ft-contact-item">
+                <img src="img/icon-mappin.svg" alt="" class="ft-contact-icon">
+                <p class="ft-contact-text">Rodovia Antônio Heil, 3730 Sl 101<br>Nova Brasília — Brusque, SC</p>
+            </div>
+        </div>
+    </div>
+    <div class="ft-divider"></div>
+    <div class="ft-bottom">
+        <p class="ft-copy">© 2026 ÓKEA Tecnologia. Asterian® e Aktian® são marcas registradas da ÓKEA.</p>
+        <p class="ft-copy">okea.com.br</p>
+    </div>
+    <div class="ft-agency">
+        <span class="ft-agency-label">Design by</span>
+        <img src="img/logo-jungle.svg" alt="Agência Jungle" class="ft-agency-logo">
+    </div>
+</footer>
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"
+        integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="js/scripts.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/lucide@latest/dist/umd/lucide.min.js"></script>
+        <script>lucide.createIcons();</script>
+    </body>
+</html>
