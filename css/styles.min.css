@@ -1727,7 +1727,7 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
     font-weight: normal;
 }
 .ast-hero-title .o {
-    color: #f79b42;
+    color: #fff;
 }
 .ast-hero-desc {
     font-family: 'capturaregular', sans-serif;
@@ -2817,7 +2817,7 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
     font-family: 'capturaregular', sans-serif; font-size: 48px;
     line-height: 1.2; letter-spacing: -.83px; color: #fff; margin: 0;
 }
-.lp-hero-title .o { color: #f79b42; }
+.lp-hero-title .o { color: #fff; }
 .lp-hero-desc {
     font-family: 'capturaregular', sans-serif; font-size: 19px;
     line-height: 1.55; color: #b6cce0; margin: 0; max-width: 600px;
