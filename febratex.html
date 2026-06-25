@@ -1,502 +1,952 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" type="image/jpg" href="img/favicon.png" />
-        
-        <link rel="canonical" href="https://www.okea.com.br/" />
-    	<meta property="og:locale" content="pt-BR" />
-    	<meta property="og:type" content="website" />
-    	<meta property="og:title" content="ÓKEA" />
-    	<meta property="og:description" content="Planeje melhor. Encontre falhas. Evite prejuízos." />
-    	<meta property="og:url" content="https://www.okea.com.br/" />
-    	<meta property="og:site_name" content="ÓKEA" />
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.png" />
 
-        <title>Aktian by ÓKEA — Teste grátis por 7 dias</title>
+    <link rel="canonical" href="https://www.okea.com.br/" />
+    <meta property="og:locale" content="pt-BR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ÓKEA" />
+    <meta property="og:description" content="Planeje melhor. Encontre falhas. Evite prejuízos." />
+    <meta property="og:url" content="https://www.okea.com.br/" />
+    <meta property="og:site_name" content="ÓKEA" />
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+    <title>Aktian by ÓKEA — Teste grátis por 7 dias</title>
 
-        <link rel="stylesheet" href="css/styles.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
 
-        <!-- Meta Pixel Code -->
-        <script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1296453075169826');
-        fbq('track', 'PageView');
-        </script>
-        <noscript><img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=1296453075169826&ev=PageView&noscript=1"
-        /></noscript>
-        <!-- End Meta Pixel Code -->
+    <link rel="stylesheet" href="css/styles.min.css" />
 
-        <!-- Meta Pixel Code -->
-        <script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '191355459261828');
-        fbq('track', 'PageView');
-        </script>
-        <noscript><img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=191355459261828&ev=PageView&noscript=1"
-        /></noscript>
-        <!-- End Meta Pixel Code -->
+    <!-- Meta Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return
+        n = f.fbq = function () {
+          n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        }
+        if (!f._fbq) f._fbq = n
+        n.push = n
+        n.loaded = !0
+        n.version = "2.0"
+        n.queue = []
+        t = b.createElement(e)
+        t.async = !0
+        t.src = v
+        s = b.getElementsByTagName(e)[0]
+        s.parentNode.insertBefore(t, s)
+      })(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js")
+      fbq("init", "1296453075169826")
+      fbq("track", "PageView")
+    </script>
+    <noscript><img height="1" width="1" style="display: none" src="https://www.facebook.com/tr?id=1296453075169826&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
 
-    </head>
-    <body>
-        <!-- Landing page é sempre pt-BR (não traduz para EN/ES via i18n.js) -->
-        <script>window.OKEA_FORCE_PT = true;</script>
+    <!-- Meta Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return
+        n = f.fbq = function () {
+          n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        }
+        if (!f._fbq) f._fbq = n
+        n.push = n
+        n.loaded = !0
+        n.version = "2.0"
+        n.queue = []
+        t = b.createElement(e)
+        t.async = !0
+        t.src = v
+        s = b.getElementsByTagName(e)[0]
+        s.parentNode.insertBefore(t, s)
+      })(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js")
+      fbq("init", "191355459261828")
+      fbq("track", "PageView")
+    </script>
+    <noscript><img height="1" width="1" style="display: none" src="https://www.facebook.com/tr?id=191355459261828&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+  </head>
+  <body>
+    <!-- Landing page é sempre pt-BR (não traduz para EN/ES via i18n.js) -->
+    <script>
+      window.OKEA_FORCE_PT = true
+    </script>
 
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" role="status" style="width: 7rem; height: 7rem;"></div>
-        </div>
-        
-                        <nav class="lp-nav">
-    <div class="ast-container">
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+      <div class="spinner-border text-primary" role="status" style="width: 7rem; height: 7rem"></div>
+    </div>
+
+    <nav class="lp-nav">
+      <div class="ast-container">
         <div class="lp-nav-inner">
-            <a href="index.html" class="lp-brand">
-                <img src="img/okea-logo.svg" alt="ÓKEA">
-                <span>Aktian by ÓKEA</span>
-            </a>
-            <a href="contato.html" class="lp-nav-cta">
-                Começar trial de 7 dias
-                <i data-lucide="arrow-right-circle"></i>
-            </a>
+          <a href="index.html" class="lp-brand">
+            <img src="img/okea-logo.svg" alt="ÓKEA" />
+            <span>Aktian by ÓKEA</span>
+          </a>
+          <a href="contato.html" class="lp-nav-cta">
+            Começar trial de 7 dias
+            <i data-lucide="arrow-right-circle"></i>
+          </a>
         </div>
-    </div>
-</nav>
-                <main>
-            <div class="container-fluid">
-                <div>
+      </div>
+    </nav>
+    <main>
+      <div class="container-fluid">
+        <div>
+          <style>
+            .lp-section {
+              padding: 72px 0 !important;
+            }
+            .lp-bg-white {
+              background: #fff;
+            }
+            .lp-bg-cyan {
+              background: #e1f7fd;
+            }
+            .lp-bg-gray {
+              background: #f5f8fa;
+            }
+            .lp-nav {
+              background: var(--brandBlue, #02b7d5);
+              position: fixed;
+              top: 0;
+              left: 0;
+              right: 0;
+              z-index: 1030;
+            }
+            .lp-nav ~ main {
+              padding-top: 70px !important;
+            }
+            .lp-nav-inner {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              min-height: 70px;
+              gap: 16px;
+              flex-wrap: wrap;
+              padding: 16px 0;
+            }
+            .lp-brand {
+              display: inline-flex;
+              align-items: center;
+              gap: 12px;
+              text-decoration: none;
+            }
+            .lp-brand img {
+              height: 34px;
+              width: auto;
+              display: block;
+            }
+            .lp-brand span {
+              font-family: "capturabold", sans-serif;
+              font-size: 14px;
+              color: rgba(255, 255, 255, 0.88);
+              white-space: nowrap;
+            }
+            .lp-nav-cta {
+              display: inline-flex;
+              align-items: center;
+              gap: 10px;
+              background: #15202b;
+              border: 0;
+              border-radius: 99px;
+              padding: 10px 24px;
+              color: #fff;
+              text-decoration: none;
+              font-family: "capturabold", sans-serif;
+              font-size: 15px;
+              box-shadow: none;
+              transition: 200ms ease-in-out;
+            }
+            .lp-nav-cta:hover {
+              background: #000;
+              color: #fff;
+            }
+            .lp-btn-orange {
+              display: inline-flex;
+              align-items: center;
+              gap: 14px;
+              background: #f89c43;
+              border: 0;
+              border-radius: 99px;
+              padding: 13px 32px;
+              color: #fff;
+              text-decoration: none;
+              font-family: "capturabold", sans-serif;
+              font-size: 16px;
+              box-shadow: none;
+              transition: 200ms ease-in-out;
+            }
+            .lp-btn-orange:hover {
+              background: #e8892f;
+              color: #fff;
+            }
+            .lp-btn-ghost {
+              display: inline-flex;
+              align-items: center;
+              justify-content: center;
+              border: 1px solid #fff;
+              border-radius: 99px;
+              padding: 13px 32px;
+              color: #fff;
+              text-decoration: none;
+              font-family: "capturabold", sans-serif;
+              font-size: 16px;
+              transition: 200ms ease-in-out;
+            }
+            .lp-btn-ghost:hover {
+              background: #fff;
+              color: #005495;
+            }
+            .lp-nav-cta svg,
+            .lp-btn-orange svg {
+              width: 18px;
+              height: 18px;
+              stroke: #fff;
+              flex-shrink: 0;
+            }
+            .lp-hero {
+              position: relative;
+              overflow: hidden;
+              background: linear-gradient(140deg, #00b7d5 0%, #005495 70%, #102a52 100%);
+              padding: 72px 0 88px !important;
+            }
+            .lp-hero::after {
+              content: "";
+              position: absolute;
+              width: 520px;
+              height: 520px;
+              left: -160px;
+              bottom: -200px;
+              border-radius: 50%;
+              background: radial-gradient(circle, rgba(0, 183, 213, 0.35), rgba(0, 183, 213, 0) 70%);
+              pointer-events: none;
+            }
+            .lp-hero .ast-container {
+              position: relative;
+              z-index: 1;
+            }
+            .lp-hero-grid {
+              display: flex;
+              gap: 40px;
+              align-items: center;
+            }
+            .lp-hero-left {
+              flex: 1;
+              min-width: 0;
+              display: flex;
+              flex-direction: column;
+              gap: 17px;
+              align-items: flex-start;
+            }
+            .lp-badge {
+              display: inline-flex;
+              align-items: center;
+              gap: 8px;
+              background: transparent;
+              border: 0;
+              border-radius: 0;
+              padding: 0;
+              font-family: "capturabold", sans-serif;
+              font-size: 13px;
+              letter-spacing: 1.3px;
+              text-transform: uppercase;
+              color: rgba(255, 255, 255, 0.85);
+            }
+            .lp-badge::before {
+              content: "";
+              display: inline-block;
+              width: 22px;
+              height: 2px;
+              background: rgba(255, 255, 255, 0.85);
+              border-radius: 2px;
+              flex-shrink: 0;
+            }
+            .lp-hero-title {
+              font-family: "capturaregular", sans-serif;
+              font-size: 51px;
+              line-height: 1.2;
+              letter-spacing: -2.5px;
+              color: #fff;
+              margin: 0;
+            }
+            .lp-hero-title .o {
+              color: #fff;
+            }
+            .lp-hero-desc {
+              font-family: "capturaregular", sans-serif;
+              font-size: 19px;
+              line-height: 1.55;
+              color: #b6cce0;
+              margin: 0;
+              max-width: 600px;
+            }
+            .lp-hero-btns {
+              display: flex;
+              gap: 16px;
+              align-items: center;
+              flex-wrap: wrap;
+              padding-top: 4px;
+            }
+            .lp-hero-mock {
+              width: 456px;
+              max-width: 100%;
+              height: auto;
+              display: block;
+              filter: drop-shadow(0 18px 40px rgba(11, 30, 63, 0.35));
+            }
+            .lp-dor {
+              display: flex;
+              gap: 48px;
+              align-items: center;
+              justify-content: space-between;
+            }
+            .lp-dor-left {
+              flex: 1;
+              min-width: 0;
+              display: flex;
+              flex-direction: column;
+              gap: 24px;
+              align-items: flex-start;
+            }
+            .lp-dor-media {
+              flex-shrink: 0;
+              width: 458px;
+              max-width: 100%;
+              height: 326px;
+              border-radius: 24px;
+              overflow: hidden;
+            }
+            .lp-dor-photo {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              display: block;
+            }
+            .lp-steps {
+              display: grid;
+              grid-template-columns: repeat(4, 1fr);
+              gap: 24px;
+            }
+            .lp-step {
+              position: relative;
+              background: #fff;
+              border: 1px solid #dce4eb;
+              border-radius: 16px;
+              padding: 25px;
+              box-shadow: 0 1px 1.5px rgba(11, 30, 63, 0.08);
+            }
+            .lp-step-num {
+              width: 42px;
+              height: 42px;
+              border-radius: 50%;
+              background: #00b7d5;
+              color: #fff;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              font-family: "capturabold", sans-serif;
+              font-size: 19px;
+            }
+            .lp-step h4 {
+              font-family: "capturabold", sans-serif;
+              font-size: 17px;
+              color: #15202b;
+              margin: 11px 0 6px;
+            }
+            .lp-step p {
+              font-family: "capturaregular", sans-serif;
+              font-size: 14.5px;
+              line-height: 1.5;
+              color: #45525e;
+              margin: 0;
+            }
+            .lp-step:not(:last-child)::after {
+              content: "";
+              position: absolute;
+              right: -15px;
+              top: 46px;
+              width: 26px;
+              height: 2px;
+              background: #c3d0da;
+              z-index: 1;
+            }
+            .lp-diff-row {
+              display: grid;
+              grid-template-columns: repeat(5, 1fr);
+              gap: 16px;
+            }
+            .lp-diff-card {
+              background: #fff;
+              border: 1px solid #dce4eb;
+              border-radius: 12px;
+              padding: 17px;
+              box-shadow: 0 1px 1.5px rgba(11, 30, 63, 0.08);
+            }
+            .lp-diff-ic {
+              width: 42px;
+              height: 42px;
+              border-radius: 11px;
+              background: #e1f7fd;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              margin-bottom: 10px;
+            }
+            .lp-diff-ic svg {
+              width: 22px;
+              height: 22px;
+              stroke: #00b7d5;
+            }
+            .lp-diff-card h4 {
+              font-family: "capturabold", sans-serif;
+              font-size: 16px;
+              color: #15202b;
+              margin: 0 0 6px;
+            }
+            .lp-diff-card p {
+              font-family: "capturaregular", sans-serif;
+              font-size: 13.5px;
+              line-height: 1.45;
+              color: #45525e;
+              margin: 0;
+            }
+            .lp-ind {
+              display: grid;
+              grid-template-columns: 1fr 1.1fr;
+              gap: 56px;
+              align-items: center;
+            }
+            .lp-ind-img {
+              width: 100%;
+              height: auto;
+              display: block;
+              border-radius: 23px;
+            }
+            .lp-eco {
+              background: #102a52;
+            }
+            .lp-eco-grid {
+              display: grid;
+              grid-template-columns: 1fr 1fr;
+              gap: 40px;
+              align-items: center;
+            }
+            .lp-eco .section-label {
+              color: #3fcbe3;
+            }
+            .lp-eco-title {
+              font-family: "capturabold", sans-serif;
+              font-size: 40px;
+              line-height: 1.2;
+              letter-spacing: -0.36px;
+              color: #fff;
+              margin: 0;
+            }
+            .lp-eco-title .c {
+              color: #3fcbe3;
+            }
+            .lp-eco-desc {
+              font-family: "capturaregular", sans-serif;
+              font-size: 19px;
+              line-height: 1.55;
+              color: #b6cce0;
+              margin: 0;
+            }
+            .lp-eco-col {
+              display: flex;
+              flex-direction: column;
+              gap: 16px;
+              align-items: flex-start;
+            }
+            .lp-eco-cards {
+              display: flex;
+              flex-direction: column;
+              gap: 14px;
+              width: 100%;
+            }
+            .lp-eco-card {
+              display: flex;
+              align-items: center;
+              gap: 16px;
+              background: rgba(255, 255, 255, 0.06);
+              border: 1px solid rgba(255, 255, 255, 0.12);
+              border-radius: 12px;
+              padding: 19px 21px;
+            }
+            .lp-eco-card.is-roadmap {
+              border-style: dashed;
+              border-color: rgba(255, 255, 255, 0.22);
+            }
+            .lp-eco-ic {
+              width: 46px;
+              height: 46px;
+              border-radius: 11px;
+              background: rgba(0, 183, 213, 0.18);
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-shrink: 0;
+            }
+            .lp-eco-ic.is-orange {
+              background: rgba(247, 155, 66, 0.18);
+            }
+            .lp-eco-ic svg {
+              width: 22px;
+              height: 22px;
+              stroke: #3fcbe3;
+            }
+            .lp-eco-ic.is-orange svg {
+              stroke: #f79b42;
+            }
+            .lp-eco-card .txt {
+              flex: 1;
+              min-width: 0;
+            }
+            .lp-eco-card .txt strong {
+              display: block;
+              font-family: "capturabold", sans-serif;
+              font-size: 16px;
+              color: #fff;
+              font-weight: normal;
+            }
+            .lp-eco-card .txt span {
+              font-family: "capturaregular", sans-serif;
+              font-size: 13.5px;
+              color: #b6cce0;
+            }
+            .lp-pill-roadmap {
+              background: #fcebd6;
+              color: #b56a00;
+              font-family: "capturabold", sans-serif;
+              font-size: 11.5px;
+              letter-spacing: 0.23px;
+              padding: 6.5px 12px;
+              border-radius: 999px;
+              flex-shrink: 0;
+            }
+            .lp-close {
+              position: relative;
+              overflow: hidden;
+              background: #f79b42 url("img/cta-worker-bg.png") right -40px top 0 / cover no-repeat;
+              padding: 56px 0 !important;
+              min-height: 428px;
+              display: flex;
+              align-items: center;
+            }
+            .lp-close::before {
+              content: "";
+              position: absolute;
+              inset: 0;
+              z-index: 0;
+              background: linear-gradient(to right, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.45) 35%, rgba(0, 0, 0, 0) 80%);
+            }
+            .lp-close .ast-container {
+              position: relative;
+              z-index: 1;
+              display: flex;
+              gap: 24px;
+              align-items: center;
+              justify-content: space-between;
+              flex-wrap: wrap;
+            }
+            .lp-close-left {
+              display: flex;
+              flex-direction: column;
+              gap: 16px;
+              align-items: flex-start;
+              max-width: 630px;
+            }
+            .lp-close-title {
+              font-family: "capturabold", sans-serif;
+              font-size: 31px;
+              line-height: 1.2;
+              color: #fff;
+              margin: 0;
+            }
+            .lp-close-desc {
+              font-family: "capturaregular", sans-serif;
+              font-size: 17px;
+              line-height: 1.5;
+              color: #b6cce0;
+              margin: 0;
+            }
+            .lp-close-btns {
+              display: flex;
+              gap: 16px;
+              align-items: center;
+              flex-wrap: wrap;
+            }
+            /* garante o container reusado mesmo com styles.min.css em cache */
+            .ast-container {
+              max-width: 1200px;
+              margin: 0 auto;
+              padding: 0 32px;
+            }
+            @media (max-width: 991px) {
+              .lp-hero-grid {
+                flex-direction: column;
+                align-items: stretch;
+              }
+              .lp-hero-title {
+                font-size: 36px;
+                letter-spacing: -0.5px;
+              }
+              .lp-dor {
+                flex-direction: column;
+                align-items: stretch;
+              }
+              .lp-dor-media {
+                width: 100%;
+              }
+              .lp-steps {
+                grid-template-columns: 1fr 1fr;
+              }
+              .lp-step:not(:last-child)::after {
+                display: none;
+              }
+              .lp-diff-row {
+                grid-template-columns: 1fr 1fr 1fr;
+              }
+              .lp-ind {
+                grid-template-columns: 1fr;
+                gap: 32px;
+              }
+              .lp-eco-grid {
+                grid-template-columns: 1fr;
+              }
+              .lp-eco-title {
+                font-size: 30px;
+              }
+            }
+            @media (max-width: 600px) {
+              .lp-steps {
+                grid-template-columns: 1fr;
+              }
+              .lp-diff-row {
+                grid-template-columns: 1fr 1fr;
+              }
+              .lp-hero-title {
+                font-size: 30px;
+              }
+            }
+          </style>
 
-                    
-    
-    <style>
-        .lp-section { padding: 72px 0 !important; }
-        .lp-bg-white { background: #fff; }
-        .lp-bg-cyan { background: #e1f7fd; }
-        .lp-bg-gray { background: #f5f8fa; }
-        .lp-nav { background: var(--brandBlue, #02b7d5); position: fixed; top: 0; left: 0; right: 0; z-index: 1030; }
-        .lp-nav ~ main { padding-top: 70px !important; }
-        .lp-nav-inner { display: flex; align-items: center; justify-content: space-between; min-height: 70px; gap: 16px; flex-wrap: wrap; padding: 16px 0; }
-        .lp-brand { display: inline-flex; align-items: center; gap: 12px; text-decoration: none; }
-        .lp-brand img { height: 34px; width: auto; display: block; }
-        .lp-brand span { font-family: 'capturabold', sans-serif; font-size: 14px; color: rgba(255, 255, 255, .88); white-space: nowrap; }
-        .lp-nav-cta { display: inline-flex; align-items: center; gap: 10px; background: #15202b; border: 0; border-radius: 99px; padding: 10px 24px; color: #fff; text-decoration: none; font-family: 'capturabold', sans-serif; font-size: 15px; box-shadow: none; transition: 200ms ease-in-out; }
-        .lp-nav-cta:hover { background: #000; color: #fff; }
-        .lp-btn-orange { display: inline-flex; align-items: center; gap: 14px; background: #f89c43; border: 0; border-radius: 99px; padding: 13px 32px; color: #fff; text-decoration: none; font-family: 'capturabold', sans-serif; font-size: 16px; box-shadow: none; transition: 200ms ease-in-out; }
-        .lp-btn-orange:hover { background: #e8892f; color: #fff; }
-        .lp-btn-ghost { display: inline-flex; align-items: center; justify-content: center; border: 1px solid #fff; border-radius: 99px; padding: 13px 32px; color: #fff; text-decoration: none; font-family: 'capturabold', sans-serif; font-size: 16px; transition: 200ms ease-in-out; }
-        .lp-btn-ghost:hover { background: #fff; color: #005495; }
-        .lp-nav-cta svg, .lp-btn-orange svg { width: 18px; height: 18px; stroke: #fff; flex-shrink: 0; }
-        .lp-hero { position: relative; overflow: hidden; background: linear-gradient(140deg, #00b7d5 0%, #005495 70%, #102a52 100%); padding: 72px 0 88px !important; }
-        .lp-hero::after { content: ''; position: absolute; width: 520px; height: 520px; left: -160px; bottom: -200px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 183, 213, .35), rgba(0, 183, 213, 0) 70%); pointer-events: none; }
-        .lp-hero .ast-container { position: relative; z-index: 1; }
-        .lp-hero-grid { display: flex; gap: 40px; align-items: center; }
-        .lp-hero-left { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 17px; align-items: flex-start; }
-        .lp-badge { display: inline-flex; align-items: center; gap: 8px; background: transparent; border: 0; border-radius: 0; padding: 0; font-family: 'capturabold', sans-serif; font-size: 13px; letter-spacing: 1.3px; text-transform: uppercase; color: rgba(255, 255, 255, .85); }
-        .lp-badge::before { content: ''; display: inline-block; width: 22px; height: 2px; background: rgba(255, 255, 255, .85); border-radius: 2px; flex-shrink: 0; }
-        .lp-hero-title { font-family: 'capturaregular', sans-serif; font-size: 51px; line-height: 1.2; letter-spacing: -2.5px; color: #fff; margin: 0; }
-        .lp-hero-title .o { color: #fff; }
-        .lp-hero-desc { font-family: 'capturaregular', sans-serif; font-size: 19px; line-height: 1.55; color: #b6cce0; margin: 0; max-width: 600px; }
-        .lp-hero-btns { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; padding-top: 4px; }
-        .lp-hero-mock { width: 456px; max-width: 100%; height: auto; display: block; filter: drop-shadow(0 18px 40px rgba(11, 30, 63, .35)); }
-        .lp-dor { display: flex; gap: 48px; align-items: center; justify-content: space-between; }
-        .lp-dor-left { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 24px; align-items: flex-start; }
-        .lp-dor-media { flex-shrink: 0; width: 458px; max-width: 100%; height: 326px; border-radius: 24px; overflow: hidden; }
-        .lp-dor-photo { width: 100%; height: 100%; object-fit: cover; display: block; }
-        .lp-steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
-        .lp-step { position: relative; background: #fff; border: 1px solid #dce4eb; border-radius: 16px; padding: 25px; box-shadow: 0 1px 1.5px rgba(11, 30, 63, .08); }
-        .lp-step-num { width: 42px; height: 42px; border-radius: 50%; background: #00b7d5; color: #fff; display: flex; align-items: center; justify-content: center; font-family: 'capturabold', sans-serif; font-size: 19px; }
-        .lp-step h4 { font-family: 'capturabold', sans-serif; font-size: 17px; color: #15202b; margin: 11px 0 6px; }
-        .lp-step p { font-family: 'capturaregular', sans-serif; font-size: 14.5px; line-height: 1.5; color: #45525e; margin: 0; }
-        .lp-step:not(:last-child)::after { content: ''; position: absolute; right: -15px; top: 46px; width: 26px; height: 2px; background: #c3d0da; z-index: 1; }
-        .lp-diff-row { display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; }
-        .lp-diff-card { background: #fff; border: 1px solid #dce4eb; border-radius: 12px; padding: 17px; box-shadow: 0 1px 1.5px rgba(11, 30, 63, .08); }
-        .lp-diff-ic { width: 42px; height: 42px; border-radius: 11px; background: #e1f7fd; display: flex; align-items: center; justify-content: center; margin-bottom: 10px; }
-        .lp-diff-ic svg { width: 22px; height: 22px; stroke: #00b7d5; }
-        .lp-diff-card h4 { font-family: 'capturabold', sans-serif; font-size: 16px; color: #15202b; margin: 0 0 6px; }
-        .lp-diff-card p { font-family: 'capturaregular', sans-serif; font-size: 13.5px; line-height: 1.45; color: #45525e; margin: 0; }
-        .lp-ind { display: grid; grid-template-columns: 1fr 1.1fr; gap: 56px; align-items: center; }
-        .lp-ind-img { width: 100%; height: auto; display: block; border-radius: 23px; }
-        .lp-eco { background: #102a52; }
-        .lp-eco-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; }
-        .lp-eco .section-label { color: #3fcbe3; }
-        .lp-eco-title { font-family: 'capturabold', sans-serif; font-size: 40px; line-height: 1.2; letter-spacing: -.36px; color: #fff; margin: 0; }
-        .lp-eco-title .c { color: #3fcbe3; }
-        .lp-eco-desc { font-family: 'capturaregular', sans-serif; font-size: 19px; line-height: 1.55; color: #b6cce0; margin: 0; }
-        .lp-eco-col { display: flex; flex-direction: column; gap: 16px; align-items: flex-start; }
-        .lp-eco-cards { display: flex; flex-direction: column; gap: 14px; width: 100%; }
-        .lp-eco-card { display: flex; align-items: center; gap: 16px; background: rgba(255, 255, 255, .06); border: 1px solid rgba(255, 255, 255, .12); border-radius: 12px; padding: 19px 21px; }
-        .lp-eco-card.is-roadmap { border-style: dashed; border-color: rgba(255, 255, 255, .22); }
-        .lp-eco-ic { width: 46px; height: 46px; border-radius: 11px; background: rgba(0, 183, 213, .18); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
-        .lp-eco-ic.is-orange { background: rgba(247, 155, 66, .18); }
-        .lp-eco-ic svg { width: 22px; height: 22px; stroke: #3fcbe3; }
-        .lp-eco-ic.is-orange svg { stroke: #f79b42; }
-        .lp-eco-card .txt { flex: 1; min-width: 0; }
-        .lp-eco-card .txt strong { display: block; font-family: 'capturabold', sans-serif; font-size: 16px; color: #fff; font-weight: normal; }
-        .lp-eco-card .txt span { font-family: 'capturaregular', sans-serif; font-size: 13.5px; color: #b6cce0; }
-        .lp-pill-roadmap { background: #fcebd6; color: #b56a00; font-family: 'capturabold', sans-serif; font-size: 11.5px; letter-spacing: .23px; padding: 6.5px 12px; border-radius: 999px; flex-shrink: 0; }
-        .lp-close { position: relative; overflow: hidden; background: #f79b42 url('img/cta-worker-bg.png') right -40px top 0 / cover no-repeat; padding: 56px 0 !important; min-height: 428px; display: flex; align-items: center; }
-        .lp-close::before { content: ''; position: absolute; inset: 0; z-index: 0; background: linear-gradient(to right, rgba(0,0,0,.7) 0%, rgba(0,0,0,.45) 35%, rgba(0,0,0,0) 80%); }
-        .lp-close .ast-container { position: relative; z-index: 1; display: flex; gap: 24px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
-        .lp-close-left { display: flex; flex-direction: column; gap: 16px; align-items: flex-start; max-width: 630px; }
-        .lp-close-title { font-family: 'capturabold', sans-serif; font-size: 31px; line-height: 1.2; color: #fff; margin: 0; }
-        .lp-close-desc { font-family: 'capturaregular', sans-serif; font-size: 17px; line-height: 1.5; color: #b6cce0; margin: 0; }
-        .lp-close-btns { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
-        /* garante o container reusado mesmo com styles.min.css em cache */
-        .ast-container { max-width: 1200px; margin: 0 auto; padding: 0 32px; }
-        @media (max-width: 991px) {
-            .lp-hero-grid { flex-direction: column; align-items: stretch; }
-            .lp-hero-title { font-size: 36px; letter-spacing: -.5px; }
-            .lp-dor { flex-direction: column; align-items: stretch; }
-            .lp-dor-media { width: 100%; }
-            .lp-steps { grid-template-columns: 1fr 1fr; }
-            .lp-step:not(:last-child)::after { display: none; }
-            .lp-diff-row { grid-template-columns: 1fr 1fr 1fr; }
-            .lp-ind { grid-template-columns: 1fr; gap: 32px; }
-            .lp-eco-grid { grid-template-columns: 1fr; }
-            .lp-eco-title { font-size: 30px; }
-        }
-        @media (max-width: 600px) {
-            .lp-steps { grid-template-columns: 1fr; }
-            .lp-diff-row { grid-template-columns: 1fr 1fr; }
-            .lp-hero-title { font-size: 30px; }
-        }
-    </style>
-
-    <section class="lp-hero">
-    <div class="ast-container">
-        <div class="lp-hero-grid">
-            <div class="lp-hero-left">
-                <span class="lp-badge">Teste grátis por 7 dias</span>
-                <h1 class="lp-hero-title">Controle e rastreabilidade da manutenção industrial, <span class="o">sem complicação</span>.</h1>
-                <p class="lp-hero-desc">Com o Aktian by ÓKEA, você organiza a manutenção corretiva, registra atividades em campo e ganha histórico confiável para decidir com segurança.</p>
-                <div class="lp-hero-btns">
+          <section class="lp-hero">
+            <div class="ast-container">
+              <div class="lp-hero-grid">
+                <div class="lp-hero-left">
+                  <span class="lp-badge">Teste grátis por 7 dias</span>
+                  <h1 class="lp-hero-title">Controle e rastreabilidade da manutenção industrial, <span class="o">sem complicação</span>.</h1>
+                  <p class="lp-hero-desc">Com o Aktian by ÓKEA, você organiza a manutenção corretiva, registra atividades em campo e ganha histórico confiável para decidir com segurança.</p>
+                  <div class="lp-hero-btns">
                     <a href="contato.html" class="lp-btn-orange">
-                        Começar trial de 7 dias
-                        <i data-lucide="arrow-right-circle"></i>
+                      Começar trial de 7 dias
+                      <i data-lucide="arrow-right-circle"></i>
                     </a>
-                    <a href="contato.html" class="lp-btn-ghost">Agendar demonstração</a>
+                  </div>
                 </div>
+                <div class="lp-hero-right">
+                  <img src="img/lp-hero-card.png" alt="Quadro de ordens de serviço do Aktian" class="lp-hero-mock" />
+                </div>
+              </div>
             </div>
-            <div class="lp-hero-right">
-                <img src="img/lp-hero-card.png" alt="Quadro de ordens de serviço do Aktian" class="lp-hero-mock">
-            </div>
-        </div>
-    </div>
-</section>
-    <section class="lp-section lp-bg-white">
-    <div class="ast-container">
-        <div class="lp-dor">
-            <div class="lp-dor-left">
-                <span class="section-label">A DOR QUE VOCÊ RECONHECE</span>
-                <h2 class="akt-h2">Quando a manutenção não tem controle, a fábrica <span class="text-brand">perde tempo duas vezes</span>.</h2>
-                <ul class="ast-list">
+          </section>
+          <section class="lp-section lp-bg-white">
+            <div class="ast-container">
+              <div class="lp-dor">
+                <div class="lp-dor-left">
+                  <span class="section-label">A DOR QUE VOCÊ RECONHECE</span>
+                  <h2 class="akt-h2">Quando a manutenção não tem controle, a fábrica <span class="text-brand">perde tempo duas vezes</span>.</h2>
+                  <ul class="ast-list">
                     <li>Informações se perdem entre turnos e pessoas.</li>
                     <li>Histórico fica incompleto e difícil de consultar.</li>
                     <li>Falhas se repetem sem rastreabilidade.</li>
                     <li>A decisão vira percepção, não evidência.</li>
-                </ul>
+                  </ul>
+                </div>
+                <div class="lp-dor-media">
+                  <img src="img/lp-dor-photo.jpg" alt="" class="lp-dor-photo" />
+                </div>
+              </div>
             </div>
-            <div class="lp-dor-media">
-                <img src="img/lp-dor-photo.jpg" alt="" class="lp-dor-photo">
-            </div>
-        </div>
-    </div>
-</section>
-    <section class="lp-section lp-bg-cyan">
-    <div class="ast-container">
-        <div class="akt-head">
-            <span class="section-label">O QUE O AKTIAN RESOLVE</span>
-            <h2 class="akt-h2">Uma rotina clara para <span class="text-brand">registrar, acompanhar e gerenciar</span>.</h2>
-        </div>
+          </section>
+          <section class="lp-section lp-bg-cyan">
+            <div class="ast-container">
+              <div class="akt-head">
+                <span class="section-label">O QUE O AKTIAN RESOLVE</span>
+                <h2 class="akt-h2">Uma rotina clara para <span class="text-brand">registrar, acompanhar e gerenciar</span>.</h2>
+              </div>
 
-        <div class="akt-grid-3">
-            <div class="akt-card">
-                <div class="akt-card-icon"><i data-lucide="clipboard-list"></i></div>
-                <h3 class="akt-card-title">Solicitações e ordens de serviço</h3>
-                <p class="akt-card-desc">Registre problemas com padrão e gere ordens para executar e acompanhar o status até a conclusão.</p>
+              <div class="akt-grid-3">
+                <div class="akt-card">
+                  <div class="akt-card-icon"><i data-lucide="clipboard-list"></i></div>
+                  <h3 class="akt-card-title">Solicitações e ordens de serviço</h3>
+                  <p class="akt-card-desc">Registre problemas com padrão e gere ordens para executar e acompanhar o status até a conclusão.</p>
+                </div>
+                <div class="akt-card">
+                  <div class="akt-card-icon"><i data-lucide="timer"></i></div>
+                  <h3 class="akt-card-title">Atividades, horas e insumos</h3>
+                  <p class="akt-card-desc">Registre o que foi feito, o tempo de execução e os insumos no momento da intervenção.</p>
+                </div>
+                <div class="akt-card">
+                  <div class="akt-card-icon"><i data-lucide="history"></i></div>
+                  <h3 class="akt-card-title">Histórico centralizado por ativo</h3>
+                  <p class="akt-card-desc">Toda a vida do ativo em um só lugar, pronta para consultar e atacar recorrência.</p>
+                </div>
+                <div class="akt-card">
+                  <div class="akt-card-icon"><i data-lucide="bar-chart-3"></i></div>
+                  <h3 class="akt-card-title">Indicadores e dashboards</h3>
+                  <p class="akt-card-desc">Visão gerencial de ordens, tempos e criticidade para priorizar o que importa.</p>
+                </div>
+                <div class="akt-card">
+                  <div class="akt-card-icon"><i data-lucide="smartphone"></i></div>
+                  <h3 class="akt-card-title">Mobilidade para campo</h3>
+                  <p class="akt-card-desc">Acesso web e aplicativo para a equipe registrar e consultar onde a manutenção acontece.</p>
+                </div>
+                <div class="akt-card">
+                  <div class="akt-card-icon"><i data-lucide="share-2"></i></div>
+                  <h3 class="akt-card-title">Integração com o ecossistema ÓKEA</h3>
+                  <p class="akt-card-desc">Conecta com o Asterian para unir eventos da produção à rotina de manutenção.</p>
+                </div>
+              </div>
             </div>
-            <div class="akt-card">
-                <div class="akt-card-icon"><i data-lucide="timer"></i></div>
-                <h3 class="akt-card-title">Atividades, horas e insumos</h3>
-                <p class="akt-card-desc">Registre o que foi feito, o tempo de execução e os insumos no momento da intervenção.</p>
-            </div>
-            <div class="akt-card">
-                <div class="akt-card-icon"><i data-lucide="history"></i></div>
-                <h3 class="akt-card-title">Histórico centralizado por ativo</h3>
-                <p class="akt-card-desc">Toda a vida do ativo em um só lugar, pronta para consultar e atacar recorrência.</p>
-            </div>
-            <div class="akt-card">
-                <div class="akt-card-icon"><i data-lucide="bar-chart-3"></i></div>
-                <h3 class="akt-card-title">Indicadores e dashboards</h3>
-                <p class="akt-card-desc">Visão gerencial de ordens, tempos e criticidade para priorizar o que importa.</p>
-            </div>
-            <div class="akt-card">
-                <div class="akt-card-icon"><i data-lucide="smartphone"></i></div>
-                <h3 class="akt-card-title">Mobilidade para campo</h3>
-                <p class="akt-card-desc">Acesso web e aplicativo para a equipe registrar e consultar onde a manutenção acontece.</p>
-            </div>
-            <div class="akt-card">
-                <div class="akt-card-icon"><i data-lucide="share-2"></i></div>
-                <h3 class="akt-card-title">Integração com o ecossistema ÓKEA</h3>
-                <p class="akt-card-desc">Conecta com o Asterian para unir eventos da produção à rotina de manutenção.</p>
-            </div>
-        </div>
-    </div>
-</section>
-    <section class="lp-section lp-bg-white">
-    <div class="ast-container">
-        <div class="akt-head" style="align-items:flex-start;text-align:left;max-width:none;margin:0 0 40px">
-            <span class="section-label">COMO FUNCIONA</span>
-            <h2 class="akt-h2">Do chamado à decisão, em <span class="text-brand">poucos passos</span>.</h2>
-        </div>
+          </section>
+          <section class="lp-section lp-bg-white">
+            <div class="ast-container">
+              <div class="akt-head" style="align-items: flex-start; text-align: left; max-width: none; margin: 0 0 40px">
+                <span class="section-label">COMO FUNCIONA</span>
+                <h2 class="akt-h2">Do chamado à decisão, em <span class="text-brand">poucos passos</span>.</h2>
+              </div>
 
-        <div class="lp-steps">
-            <div class="lp-step">
-                <div class="lp-step-num">1</div>
-                <h4>Abra a solicitação</h4>
-                <p>Descreva o problema com registro padronizado.</p>
+              <div class="lp-steps">
+                <div class="lp-step">
+                  <div class="lp-step-num">1</div>
+                  <h4>Abra a solicitação</h4>
+                  <p>Descreva o problema com registro padronizado.</p>
+                </div>
+                <div class="lp-step">
+                  <div class="lp-step-num">2</div>
+                  <h4>Gere a ordem</h4>
+                  <p>Acompanhe a ordem de serviço até a conclusão.</p>
+                </div>
+                <div class="lp-step">
+                  <div class="lp-step-num">3</div>
+                  <h4>Registre a execução</h4>
+                  <p>Atividade, tempo e insumos no momento certo.</p>
+                </div>
+                <div class="lp-step">
+                  <div class="lp-step-num">4</div>
+                  <h4>Consulte e melhore</h4>
+                  <p>Histórico e indicadores para atacar recorrência.</p>
+                </div>
+              </div>
             </div>
-            <div class="lp-step">
-                <div class="lp-step-num">2</div>
-                <h4>Gere a ordem</h4>
-                <p>Acompanhe a ordem de serviço até a conclusão.</p>
-            </div>
-            <div class="lp-step">
-                <div class="lp-step-num">3</div>
-                <h4>Registre a execução</h4>
-                <p>Atividade, tempo e insumos no momento certo.</p>
-            </div>
-            <div class="lp-step">
-                <div class="lp-step-num">4</div>
-                <h4>Consulte e melhore</h4>
-                <p>Histórico e indicadores para atacar recorrência.</p>
-            </div>
-        </div>
-    </div>
-</section>
-    <section class="lp-section lp-bg-gray">
-    <div class="ast-container">
-        <div class="lp-ind">
-            <div class="lp-ind-left">
-                <span class="section-label">INDICADORES PARA GESTÃO</span>
-                <h2 class="akt-h2 mt-3">Visibilidade do que está acontecendo e do que está <span class="text-brand">se repetindo</span>.</h2>
-                <ul class="ast-list mt-4">
+          </section>
+          <section class="lp-section lp-bg-gray">
+            <div class="ast-container">
+              <div class="lp-ind">
+                <div class="lp-ind-left">
+                  <span class="section-label">INDICADORES PARA GESTÃO</span>
+                  <h2 class="akt-h2 mt-3">Visibilidade do que está acontecendo e do que está <span class="text-brand">se repetindo</span>.</h2>
+                  <ul class="ast-list mt-4">
                     <li>Ordens por status, ativo, criticidade e responsável.</li>
                     <li>Tempos de resposta e execução para melhorar a rotina.</li>
                     <li>Leitura rápida para priorizar ações.</li>
-                </ul>
+                  </ul>
+                </div>
+                <div class="lp-ind-right">
+                  <img src="img/lp-indicadores.jpg" alt="Operador acompanhando indicadores do Aktian" class="lp-ind-img" />
+                </div>
+              </div>
             </div>
-            <div class="lp-ind-right">
-                <img src="img/lp-indicadores.jpg" alt="Operador acompanhando indicadores do Aktian" class="lp-ind-img">
-            </div>
-        </div>
-    </div>
-</section>
-    <section class="lp-section lp-bg-white">
-    <div class="ast-container">
-        <div class="akt-head">
-            <span class="section-label">DIFERENCIAIS</span>
-            <h2 class="akt-h2">Feito para <span class="text-brand">funcionar na prática</span>.</h2>
-        </div>
+          </section>
+          <section class="lp-section lp-bg-white">
+            <div class="ast-container">
+              <div class="akt-head">
+                <span class="section-label">DIFERENCIAIS</span>
+                <h2 class="akt-h2">Feito para <span class="text-brand">funcionar na prática</span>.</h2>
+              </div>
 
-        <div class="lp-diff-row">
-            <div class="lp-diff-card">
-                <div class="lp-diff-ic"><i data-lucide="mouse-pointer-click"></i></div>
-                <h4>Simplicidade de uso</h4>
-                <p>Para equipe de campo e liderança.</p>
+              <div class="lp-diff-row">
+                <div class="lp-diff-card">
+                  <div class="lp-diff-ic"><i data-lucide="mouse-pointer-click"></i></div>
+                  <h4>Simplicidade de uso</h4>
+                  <p>Para equipe de campo e liderança.</p>
+                </div>
+                <div class="lp-diff-card">
+                  <div class="lp-diff-ic"><i data-lucide="rocket"></i></div>
+                  <h4>Implantação rápida</h4>
+                  <p>Comece a registrar desde o primeiro dia.</p>
+                </div>
+                <div class="lp-diff-card">
+                  <div class="lp-diff-ic"><i data-lucide="cloud"></i></div>
+                  <h4>Modelo SaaS acessível</h4>
+                  <p>Sem infraestrutura complexa.</p>
+                </div>
+                <div class="lp-diff-card">
+                  <div class="lp-diff-ic"><i data-lucide="headset"></i></div>
+                  <h4>Suporte próximo</h4>
+                  <p>Atendimento especializado.</p>
+                </div>
+                <div class="lp-diff-card">
+                  <div class="lp-diff-ic"><i data-lucide="layers"></i></div>
+                  <h4>Ecossistema ÓKEA</h4>
+                  <p>Integra com o Asterian.</p>
+                </div>
+              </div>
             </div>
-            <div class="lp-diff-card">
-                <div class="lp-diff-ic"><i data-lucide="rocket"></i></div>
-                <h4>Implantação rápida</h4>
-                <p>Comece a registrar desde o primeiro dia.</p>
-            </div>
-            <div class="lp-diff-card">
-                <div class="lp-diff-ic"><i data-lucide="cloud"></i></div>
-                <h4>Modelo SaaS acessível</h4>
-                <p>Sem infraestrutura complexa.</p>
-            </div>
-            <div class="lp-diff-card">
-                <div class="lp-diff-ic"><i data-lucide="headset"></i></div>
-                <h4>Suporte próximo</h4>
-                <p>Atendimento especializado.</p>
-            </div>
-            <div class="lp-diff-card">
-                <div class="lp-diff-ic"><i data-lucide="layers"></i></div>
-                <h4>Ecossistema ÓKEA</h4>
-                <p>Integra com o Asterian.</p>
-            </div>
-        </div>
-    </div>
-</section>
-    <section class="lp-section lp-eco">
-    <div class="ast-container">
-        <div class="lp-eco-grid">
-            <div class="lp-eco-col">
-                <span class="section-label">ECOSSISTEMA E VISÃO DE FUTURO</span>
-                <h2 class="lp-eco-title">O Aktian é protagonista agora e <span class="c">evolui dentro do ecossistema ÓKEA</span>.</h2>
-                <p class="lp-eco-desc">Além da rotina de manutenção corretiva, a plataforma faz parte de uma visão integrada que conecta produção, manutenção e monitoramento operacional. Sensores de energia e vibração entram como evolução planejada, reforçando o caminho para uma gestão cada vez mais orientada por dados.</p>
-            </div>
-            <div class="lp-eco-cards">
-                <div class="lp-eco-card">
+          </section>
+          <section class="lp-section lp-eco">
+            <div class="ast-container">
+              <div class="lp-eco-grid">
+                <div class="lp-eco-col">
+                  <span class="section-label">ECOSSISTEMA E VISÃO DE FUTURO</span>
+                  <h2 class="lp-eco-title">O Aktian é protagonista agora e <span class="c">evolui dentro do ecossistema ÓKEA</span>.</h2>
+                  <p class="lp-eco-desc">Além da rotina de manutenção corretiva, a plataforma faz parte de uma visão integrada que conecta produção, manutenção e monitoramento operacional. Sensores de energia e vibração entram como evolução planejada, reforçando o caminho para uma gestão cada vez mais orientada por dados.</p>
+                </div>
+                <div class="lp-eco-cards">
+                  <div class="lp-eco-card">
                     <div class="lp-eco-ic"><i data-lucide="wrench"></i></div>
                     <div class="txt">
-                        <strong>Aktian · Manutenção</strong>
-                        <span>Disponível hoje</span>
+                      <strong>Aktian · Manutenção</strong>
+                      <span>Disponível hoje</span>
                     </div>
                     <span class="sen-pill sen-pill-active"><i></i>Ativo</span>
-                </div>
-                <div class="lp-eco-card">
+                  </div>
+                  <div class="lp-eco-card">
                     <div class="lp-eco-ic"><i data-lucide="bar-chart-2"></i></div>
                     <div class="txt">
-                        <strong>Asterian · MES</strong>
-                        <span>Execução da produção</span>
+                      <strong>Asterian · MES</strong>
+                      <span>Execução da produção</span>
                     </div>
                     <span class="sen-pill sen-pill-active"><i></i>Ativo</span>
-                </div>
-                <div class="lp-eco-card is-roadmap">
+                  </div>
+                  <div class="lp-eco-card is-roadmap">
                     <div class="lp-eco-ic is-orange"><i data-lucide="activity"></i></div>
                     <div class="txt">
-                        <strong>Sensores · Energia e vibração</strong>
-                        <span>Evolução planejada</span>
+                      <strong>Sensores · Energia e vibração</strong>
+                      <span>Evolução planejada</span>
                     </div>
                     <span class="lp-pill-roadmap">Em breve</span>
+                  </div>
                 </div>
+              </div>
             </div>
-        </div>
-    </div>
-</section>
-    <section class="lp-section lp-bg-white">
-    <div class="ast-container">
-        <div class="akt-head">
-            <span class="section-label">PERGUNTAS FREQUENTES</span>
-            <h2 class="akt-h2">Tudo claro antes de <span class="text-brand">começar</span>.</h2>
-        </div>
+          </section>
+          <section class="lp-section lp-bg-white">
+            <div class="ast-container">
+              <div class="akt-head">
+                <span class="section-label">PERGUNTAS FREQUENTES</span>
+                <h2 class="akt-h2">Tudo claro antes de <span class="text-brand">começar</span>.</h2>
+              </div>
 
-        <div class="akt-faq">
-            <details open>
-                <summary>O trial tem custo?<span class="akt-faq-ic"></span></summary>
-                <p class="akt-faq-answer">Não. Você pode usar por 7 dias para validar a rotina com a sua equipe.</p>
-            </details>
-            <details>
-                <summary>O Aktian funciona no celular?<span class="akt-faq-ic"></span></summary>
-                <p class="akt-faq-answer">Sim. A equipe registra e executa ordens de serviço direto pelo celular, no campo.</p>
-            </details>
-            <details>
-                <summary>É só para têxtil?<span class="akt-faq-ic"></span></summary>
-                <p class="akt-faq-answer">Não. O Aktian atende qualquer operação industrial que precise organizar a manutenção corretiva.</p>
-            </details>
-        </div>
-    </div>
-</section>
-    <section class="lp-close">
-    <div class="ast-container">
-        <div class="lp-close-left">
-            <span class="lp-badge">Teste grátis por 7 dias</span>
-            <h2 class="lp-close-title">Comece com 7 dias grátis e ganhe controle da manutenção.</h2>
-            <p class="lp-close-desc">Valide a rotina com sua equipe e veja o histórico se formar desde o primeiro dia.</p>
-        </div>
-        <div class="lp-close-btns">
-            <a href="contato.html" class="lp-btn-orange">
-                Começar trial de 7 dias
-                <i data-lucide="arrow-right-circle"></i>
-            </a>
-            <a href="contato.html" class="lp-btn-ghost">Agendar demonstração</a>
-        </div>
-    </div>
-</section>
-
-
-                </div>
+              <div class="akt-faq">
+                <details open>
+                  <summary>O trial tem custo?<span class="akt-faq-ic"></span></summary>
+                  <p class="akt-faq-answer">Não. Você pode usar por 7 dias para validar a rotina com a sua equipe.</p>
+                </details>
+                <details>
+                  <summary>O Aktian funciona no celular?<span class="akt-faq-ic"></span></summary>
+                  <p class="akt-faq-answer">Sim. A equipe registra e executa ordens de serviço direto pelo celular, no campo.</p>
+                </details>
+                <details>
+                  <summary>É só para têxtil?<span class="akt-faq-ic"></span></summary>
+                  <p class="akt-faq-answer">Não. O Aktian atende qualquer operação industrial que precise organizar a manutenção corretiva.</p>
+                </details>
+              </div>
             </div>
-        </main>
+          </section>
+          <section class="lp-close">
+            <div class="ast-container">
+              <div class="lp-close-left">
+                <span class="lp-badge">Teste grátis por 7 dias</span>
+                <h2 class="lp-close-title">Comece com 7 dias grátis e ganhe controle da manutenção.</h2>
+                <p class="lp-close-desc">Valide a rotina com sua equipe e veja o histórico se formar desde o primeiro dia.</p>
+              </div>
+              <div class="lp-close-btns">
+                <a href="contato.html" class="lp-btn-orange">
+                  Começar trial de 7 dias
+                  <i data-lucide="arrow-right-circle"></i>
+                </a>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
 
-                        <footer class="ft-footer">
-    <div class="ft-main">
+    <footer class="ft-footer">
+      <div class="ft-main">
         <div class="ft-brand">
-            <img src="img/okea-logo-blue.svg" alt="ÓKEA" class="ft-logo">
-            <p class="ft-desc">Atuamos exclusivamente na área de tecnologia, oferecendo soluções de inteligência para a indústria 4.0.</p>
-            <div class="ft-social">
-                <a href="https://www.instagram.com/okeatecnologia/" target="_blank" rel="noopener" class="social-circle" aria-label="Instagram">
-                    <img src="img/icon-social-instagram.svg" alt="Instagram">
-                </a>
-                <a href="https://www.facebook.com/okeatecnologia" target="_blank" rel="noopener" class="social-circle" aria-label="Facebook">
-                    <img src="img/icon-social-facebook.svg" alt="Facebook">
-                </a>
-                <a href="https://www.linkedin.com/company/virtual-loom/" target="_blank" rel="noopener" class="social-circle" aria-label="LinkedIn">
-                    <img src="img/icon-social-linkedin.svg" alt="LinkedIn">
-                </a>
-            </div>
+          <img src="img/okea-logo-blue.svg" alt="ÓKEA" class="ft-logo" />
+          <p class="ft-desc">Atuamos exclusivamente na área de tecnologia, oferecendo soluções de inteligência para a indústria 4.0.</p>
+          <div class="ft-social">
+            <a href="https://www.instagram.com/okeatecnologia/" target="_blank" rel="noopener" class="social-circle" aria-label="Instagram">
+              <img src="img/icon-social-instagram.svg" alt="Instagram" />
+            </a>
+            <a href="https://www.facebook.com/okeatecnologia" target="_blank" rel="noopener" class="social-circle" aria-label="Facebook">
+              <img src="img/icon-social-facebook.svg" alt="Facebook" />
+            </a>
+            <a href="https://www.linkedin.com/company/virtual-loom/" target="_blank" rel="noopener" class="social-circle" aria-label="LinkedIn">
+              <img src="img/icon-social-linkedin.svg" alt="LinkedIn" />
+            </a>
+          </div>
         </div>
         <div class="ft-col">
-            <p class="ft-col-title">PLATAFORMA</p>
-            <a href="asterian.html" class="ft-link">Asterian (MES)</a>
-            <a href="aktian.html" class="ft-link">Aktian</a>
-            <a href="sensores.html" class="ft-link">Sensores</a>
+          <p class="ft-col-title">PLATAFORMA</p>
+          <a href="asterian.html" class="ft-link">Asterian (MES)</a>
+          <a href="aktian.html" class="ft-link">Aktian</a>
+          <a href="sensores.html" class="ft-link">Sensores</a>
         </div>
         <div class="ft-col">
-            <p class="ft-col-title">EMPRESA</p>
-<a href="sobre.html" class="ft-link">Sobre</a>
-            <a href="contato.html" class="ft-link">Contato</a>
+          <p class="ft-col-title">EMPRESA</p>
+          <a href="sobre.html" class="ft-link">Sobre</a>
+          <a href="contato.html" class="ft-link">Contato</a>
         </div>
         <div class="ft-contact">
-            <div class="ft-contact-item">
-                <img src="img/icon-phone.svg" alt="" class="ft-contact-icon">
-                <p class="ft-contact-text">+55 (47) 3255-8383<br>+55 (47) 3255-8384</p>
-            </div>
-            <div class="ft-contact-item">
-                <img src="img/icon-envelope.svg" alt="" class="ft-contact-icon">
-                <p class="ft-contact-text"><a href="mailto:falecom@okea.com.br">falecom@okea.com.br</a></p>
-            </div>
-            <div class="ft-contact-item">
-                <img src="img/icon-mappin.svg" alt="" class="ft-contact-icon">
-                <p class="ft-contact-text">Rodovia Antônio Heil, 3730 Sl 101<br>Nova Brasília — Brusque, SC</p>
-            </div>
+          <div class="ft-contact-item">
+            <img src="img/icon-phone.svg" alt="" class="ft-contact-icon" />
+            <p class="ft-contact-text">+55 (47) 3255-8383<br />+55 (47) 3255-8384</p>
+          </div>
+          <div class="ft-contact-item">
+            <img src="img/icon-envelope.svg" alt="" class="ft-contact-icon" />
+            <p class="ft-contact-text"><a href="mailto:falecom@okea.com.br">falecom@okea.com.br</a></p>
+          </div>
+          <div class="ft-contact-item">
+            <img src="img/icon-mappin.svg" alt="" class="ft-contact-icon" />
+            <p class="ft-contact-text">Rodovia Antônio Heil, 3730 Sl 101<br />Nova Brasília — Brusque, SC</p>
+          </div>
         </div>
-    </div>
-    <div class="ft-divider"></div>
-    <div class="ft-bottom">
+      </div>
+      <div class="ft-divider"></div>
+      <div class="ft-bottom">
         <p class="ft-copy">© 2026 <span>ÓKEA Tecnologia. Asterian® e Aktian® são marcas registradas da ÓKEA.</span></p>
         <p class="ft-copy">okea.com.br</p>
-    </div>
-    <a href="https://jungle.com.br/" target="_blank" rel="noopener" class="ft-agency">
+      </div>
+      <a href="https://jungle.com.br/" target="_blank" rel="noopener" class="ft-agency">
         <span class="ft-agency-label">Design by</span>
-        <img src="img/logo-jungle.svg" alt="Agência Jungle" class="ft-agency-logo">
-    </a>
-</footer>
-        
-        
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+        <img src="img/logo-jungle.svg" alt="Agência Jungle" class="ft-agency-logo" />
+      </a>
+    </footer>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"
-        integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-        <script src="js/scripts.min.js"></script>
-        <script src="js/i18n-data.js"></script>
-        <script src="js/i18n.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/lucide@latest/dist/umd/lucide.min.js"></script>
-        <script>lucide.createIcons();</script>
-    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/scripts.min.js"></script>
+    <script src="js/i18n-data.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script>
+      lucide.createIcons()
+    </script>
+  </body>
 </html>
