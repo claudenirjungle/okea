@@ -1,571 +1,526 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" type="image/jpg" href="img/favicon.png" />
-        
-        <link rel="canonical" href="https://www.okea.com.br/" />
-    	<meta property="og:locale" content="pt-BR" />
-    	<meta property="og:type" content="website" />
-    	<meta property="og:title" content="ÓKEA" />
-    	<meta property="og:description" content="Planeje melhor. Encontre falhas. Evite prejuízos." />
-    	<meta property="og:url" content="https://www.okea.com.br/" />
-    	<meta property="og:site_name" content="ÓKEA" />
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.png" />
 
-        <title>ÓKEA - Home</title>
+    <link rel="canonical" href="https://www.okea.com.br/" />
+    <meta property="og:locale" content="pt-BR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ÓKEA" />
+    <meta property="og:description" content="Planeje melhor. Encontre falhas. Evite prejuízos." />
+    <meta property="og:url" content="https://www.okea.com.br/" />
+    <meta property="og:site_name" content="ÓKEA" />
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+    <title>ÓKEA - Home</title>
 
-        <link rel="stylesheet" href="css/styles.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
 
-        <!-- Meta Pixel Code -->
-        <script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1296453075169826');
-        fbq('track', 'PageView');
-        </script>
-        <noscript><img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=1296453075169826&ev=PageView&noscript=1"
-        /></noscript>
-        <!-- End Meta Pixel Code -->
+    <link rel="stylesheet" href="css/styles.min.css" />
 
-        <!-- Meta Pixel Code -->
-        <script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '191355459261828');
-        fbq('track', 'PageView');
-        </script>
-        <noscript><img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=191355459261828&ev=PageView&noscript=1"
-        /></noscript>
-        <!-- End Meta Pixel Code -->
+    <!-- Meta Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return
+        n = f.fbq = function () {
+          n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        }
+        if (!f._fbq) f._fbq = n
+        n.push = n
+        n.loaded = !0
+        n.version = "2.0"
+        n.queue = []
+        t = b.createElement(e)
+        t.async = !0
+        t.src = v
+        s = b.getElementsByTagName(e)[0]
+        s.parentNode.insertBefore(t, s)
+      })(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js")
+      fbq("init", "1296453075169826")
+      fbq("track", "PageView")
+    </script>
+    <noscript><img height="1" width="1" style="display: none" src="https://www.facebook.com/tr?id=1296453075169826&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
 
-    </head>
-    <body>
-        
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" role="status" style="width: 7rem; height: 7rem;"></div>
-        </div>
-        
-                        <div class="fixed-top nav-home">
-    <div class="top-border"></div>
-    <header class="p-2 bg-nav">
+    <!-- Meta Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return
+        n = f.fbq = function () {
+          n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        }
+        if (!f._fbq) f._fbq = n
+        n.push = n
+        n.loaded = !0
+        n.version = "2.0"
+        n.queue = []
+        t = b.createElement(e)
+        t.async = !0
+        t.src = v
+        s = b.getElementsByTagName(e)[0]
+        s.parentNode.insertBefore(t, s)
+      })(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js")
+      fbq("init", "191355459261828")
+      fbq("track", "PageView")
+    </script>
+    <noscript><img height="1" width="1" style="display: none" src="https://www.facebook.com/tr?id=191355459261828&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+  </head>
+  <body>
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+      <div class="spinner-border text-primary" role="status" style="width: 7rem; height: 7rem"></div>
+    </div>
+
+    <div class="fixed-top nav-home">
+      <div class="top-border"></div>
+      <header class="p-2 bg-nav">
         <div class="container">
-            <div
-                class="d-flex flex-wrap align-items-center justify-content-between navbar navbar-expand-xl gap-3">
+          <div class="d-flex flex-wrap align-items-center justify-content-between navbar navbar-expand-xl gap-3">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-start gap-md-5">
+              <div>
+                <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0">
+                  <img class="img-fluid nav-logo" src="img/okea-logo.svg" alt="Logo" />
+                </a>
+              </div>
 
-                <div
-                    class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-start gap-md-5">
-                    <div>
-                        <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0">
-                            <img class="img-fluid nav-logo" src="img/okea-logo.svg" alt="Logo">
-                        </a>
-                    </div>
-
-                    <div class="nav collapse navbar-collapse">
-                        <ul
-                            class="nav nav-pills-okea col-12 col-md-auto me-md-auto mb-2 justify-content-center mb-md-0 text-uppercase">
-                            <li><a href="sobre.html" class="nav-item nav-link ">SOBRE</a></li>
-                            <li class="nav-dropdown">
-                                <button type="button" class="nav-item nav-link nav-dropdown-toggle " aria-haspopup="true" aria-expanded="false">
-                                    SOLUÇÕES
-                                    <i data-lucide="chevron-down" class="nav-dropdown-caret"></i>
-                                </button>
-                                <ul class="nav-dropdown-menu">
-                                    <li><a href="asterian.html" class="nav-dropdown-link ">Asterian</a></li>
-                                    <li><a href="aktian.html" class="nav-dropdown-link ">Aktian</a></li>
-                                    <li><a href="sensores.html" class="nav-dropdown-link ">Sensores</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="novidades.html" class="nav-item nav-link ">Novidades</a></li>
-                            <li><a href="contato.html" class="nav-item nav-link ">Contato</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="d-flex">
-                <div class="justify-content-lg-end d-none d-lg-flex align-items-center justify-content-center">
-                    <div class="lang me-4">
-                        <form action="#" onsubmit="return false" method="post" class="inline-block text-white">
-                            <input type="hidden" name="_token" value="aLPuBHzcbXlXNG31JomszjyxAp0uORq2pjoYwfaj" autocomplete="off">                            <button type="submit" name="language" value="pt-BR"
-                                class="btn-lang selected">
-                                PT
-                            </button>
-                            <span class="bar-div">/</span>
-                            <button type="submit" name="language" value="en"
-                                class="btn-lang ">
-                                EN
-                            </button>
-                            <span class="bar-div">/</span>
-                            <button type="submit" name="language" value="es"
-                                class="btn-lang ">
-                                ES
-                            </button>
-                        </form>
-                    </div>
-                    <div class="d-flex gap-2">
-                        <a href="https://www.instagram.com/okeatecnologia/" target="_blank" rel="noopener" class="social-circle" aria-label="Instagram">
-                            <img src="img/icon-social-instagram.svg" alt="Instagram">
-                        </a>
-                        <a href="https://www.facebook.com/okeatecnologia" target="_blank" rel="noopener" class="social-circle" aria-label="Facebook">
-                            <img src="img/icon-social-facebook.svg" alt="Facebook">
-                        </a>
-                        <a href="https://www.linkedin.com/company/virtual-loom/" target="_blank" rel="noopener" class="social-circle" aria-label="LinkedIn">
-                            <img src="img/icon-social-linkedin.svg" alt="LinkedIn">
-                        </a>
-                    </div>
-                </div>
-
-                <div>
-                    <button type="button" class="navbar-toggler ms-4 me-0" data-bs-toggle="collapse"
-                        data-bs-target="#navbarCollapse" aria-expanded="false" aria-controls="navbarCollapse">
-                        <span class="navbar-toggler-icon"></span>
+              <div class="nav collapse navbar-collapse">
+                <ul class="nav nav-pills-okea col-12 col-md-auto me-md-auto mb-2 justify-content-center mb-md-0 text-uppercase">
+                  <li><a href="sobre.html" class="nav-item nav-link">SOBRE</a></li>
+                  <li class="nav-dropdown">
+                    <button type="button" class="nav-item nav-link nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                      SOLUÇÕES
+                      <i data-lucide="chevron-down" class="nav-dropdown-caret"></i>
                     </button>
-                </div>
-
-            </div>
-
-
-
-            </div>
-            <div class="nav-mob nav collapse navbar-nav text-center text-md-end mt-2" id="navbarCollapse"
-                aria-expanded="false">
-
-
-                <ul class="mb-2 nav d-block justify-content-center mb-md-0 text-uppercase list-mob">
-                    <li class="d-block d-lg-none pe-md-3 py-2 py-md-0">
-                        <div class="lang justify-content-center justify-content-md-end">
-                            <form action="#" onsubmit="return false" method="post" class="inline-block text-white">
-                                <input type="hidden" name="_token" value="aLPuBHzcbXlXNG31JomszjyxAp0uORq2pjoYwfaj" autocomplete="off">                                <button type="submit" name="language" value="pt-BR"
-                                    class="btn-lang text-mob selected">
-                                    PT
-                                </button>
-                                <span class="bar-div">/</span>
-                                <button type="submit" name="language" value="en"
-                                    class="btn-lang text-mob ">
-                                    EN
-                                </button>
-                                <span class="bar-div">/</span>
-                                <button type="submit" name="language" value="es"
-                                    class="btn-lang text-mob ">
-                                    ES
-                                </button>
-                            </form>
-                        </div>
-                    </li>
-                    <li class="d-block d-lg-none pe-md-3 py-2 py-md-0">
-                        <div class="d-flex gap-4 justify-content-center justify-content-md-end">
-                            <a href="https://www.instagram.com/okeatecnologia/" target="_blank" rel="noopener" class="social-circle" aria-label="Instagram">
-                                <img src="img/icon-social-instagram.svg" alt="Instagram">
-                            </a>
-                            <a href="https://www.facebook.com/okeatecnologia" target="_blank" rel="noopener" class="social-circle" aria-label="Facebook">
-                                <img src="img/icon-social-facebook.svg" alt="Facebook">
-                            </a>
-                            <a href="https://www.linkedin.com/company/virtual-loom/" target="_blank" rel="noopener" class="social-circle" aria-label="LinkedIn">
-                                <img src="img/icon-social-linkedin.svg" alt="LinkedIn">
-                            </a>
-                        </div>
-                    </li>
-                    <li class="py-2 py-md-0"><a href="sobre.html" class="nav-item nav-link">SOBRE</a></li>
-                    <li class="pt-2 pb-1 py-md-0"><span class="nav-link nav-mob-group-label">SOLUÇÕES</span></li>
-                    <li class="py-1 py-md-0"><a href="asterian.html" class="nav-item nav-link nav-mob-sublink">Asterian</a></li>
-                    <li class="py-1 py-md-0"><a href="aktian.html" class="nav-item nav-link nav-mob-sublink">Aktian</a></li>
-                    <li class="pt-1 pb-2 py-md-0"><a href="sensores.html" class="nav-item nav-link nav-mob-sublink">Sensores</a></li>
-                    <li class="py-2 py-md-0"><a href="novidades.html" class="nav-item nav-link">Novidades</a></li>
-                    <li class="py-2 py-md-0"><a href="contato.html" class="nav-item nav-link">Contato</a></li>
+                    <ul class="nav-dropdown-menu">
+                      <li><a href="asterian.html" class="nav-dropdown-link">Asterian</a></li>
+                      <li><a href="aktian.html" class="nav-dropdown-link">Aktian</a></li>
+                      <li><a href="sensores.html" class="nav-dropdown-link">Sensores</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="novidades.html" class="nav-item nav-link">Novidades</a></li>
+                  <li><a href="contato.html" class="nav-item nav-link">Contato</a></li>
                 </ul>
+              </div>
             </div>
-        </div>
-    </header>
-</div>
-                <main>
-            <div class="container-fluid">
-                <div>
 
-                    
-    <section class="hero-home">
-    <div class="ast-container h-100">
-        <div class="d-flex flex-wrap align-items-center justify-content-center pt-lg-5">
-            <div class="col-12 col-lg-6 d-flex flex-column align-items-start gap-3 py-5 py-lg-0">
-                <span class="section-label" style="color: #005496;">Fábrica Inteligente Ókea</span>
-                <p class="bold-header">Um <span class="cap-bold">ecossistema</span> <span class="cap-bold">completo</span> para as indústrias do futuro.</p>
-                <p class="regular-header">Conecte produção e manutenção para ganhar visibilidade operacional, rastreabilidade e decisão rápida, do chão da fábrica à gestão.</p>
-                <div class="d-flex flex-column gap-3 mt-2">
+            <div class="d-flex">
+              <div class="justify-content-lg-end d-none d-lg-flex align-items-center justify-content-center">
+                <div class="lang me-4">
+                  <form action="#" onsubmit="return false" method="post" class="inline-block text-white">
+                    <input type="hidden" name="_token" value="aLPuBHzcbXlXNG31JomszjyxAp0uORq2pjoYwfaj" autocomplete="off" /> <button type="submit" name="language" value="pt-BR" class="btn-lang selected">PT</button>
+                    <span class="bar-div">/</span>
+                    <button type="submit" name="language" value="en" class="btn-lang">EN</button>
+                    <span class="bar-div">/</span>
+                    <button type="submit" name="language" value="es" class="btn-lang">ES</button>
+                  </form>
+                </div>
+                <div class="d-flex gap-2">
+                  <a href="https://www.instagram.com/okeatecnologia/" target="_blank" rel="noopener" class="social-circle" aria-label="Instagram">
+                    <img src="img/icon-social-instagram.svg" alt="Instagram" />
+                  </a>
+                  <a href="https://www.facebook.com/okeatecnologia" target="_blank" rel="noopener" class="social-circle" aria-label="Facebook">
+                    <img src="img/icon-social-facebook.svg" alt="Facebook" />
+                  </a>
+                  <a href="https://www.linkedin.com/company/virtual-loom/" target="_blank" rel="noopener" class="social-circle" aria-label="LinkedIn">
+                    <img src="img/icon-social-linkedin.svg" alt="LinkedIn" />
+                  </a>
+                </div>
+              </div>
+
+              <div>
+                <button type="button" class="navbar-toggler ms-4 me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-expanded="false" aria-controls="navbarCollapse">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="nav-mob nav collapse navbar-nav text-center text-md-end mt-2" id="navbarCollapse" aria-expanded="false">
+            <ul class="mb-2 nav d-block justify-content-center mb-md-0 text-uppercase list-mob">
+              <li class="d-block d-lg-none pe-md-3 py-2 py-md-0">
+                <div class="lang justify-content-center justify-content-md-end">
+                  <form action="#" onsubmit="return false" method="post" class="inline-block text-white">
+                    <input type="hidden" name="_token" value="aLPuBHzcbXlXNG31JomszjyxAp0uORq2pjoYwfaj" autocomplete="off" /> <button type="submit" name="language" value="pt-BR" class="btn-lang text-mob selected">PT</button>
+                    <span class="bar-div">/</span>
+                    <button type="submit" name="language" value="en" class="btn-lang text-mob">EN</button>
+                    <span class="bar-div">/</span>
+                    <button type="submit" name="language" value="es" class="btn-lang text-mob">ES</button>
+                  </form>
+                </div>
+              </li>
+              <li class="d-block d-lg-none pe-md-3 py-2 py-md-0">
+                <div class="d-flex gap-4 justify-content-center justify-content-md-end">
+                  <a href="https://www.instagram.com/okeatecnologia/" target="_blank" rel="noopener" class="social-circle" aria-label="Instagram">
+                    <img src="img/icon-social-instagram.svg" alt="Instagram" />
+                  </a>
+                  <a href="https://www.facebook.com/okeatecnologia" target="_blank" rel="noopener" class="social-circle" aria-label="Facebook">
+                    <img src="img/icon-social-facebook.svg" alt="Facebook" />
+                  </a>
+                  <a href="https://www.linkedin.com/company/virtual-loom/" target="_blank" rel="noopener" class="social-circle" aria-label="LinkedIn">
+                    <img src="img/icon-social-linkedin.svg" alt="LinkedIn" />
+                  </a>
+                </div>
+              </li>
+              <li class="py-2 py-md-0"><a href="sobre.html" class="nav-item nav-link">SOBRE</a></li>
+              <li class="pt-2 pb-1 py-md-0"><span class="nav-link nav-mob-group-label">SOLUÇÕES</span></li>
+              <li class="py-1 py-md-0"><a href="asterian.html" class="nav-item nav-link nav-mob-sublink">Asterian</a></li>
+              <li class="py-1 py-md-0"><a href="aktian.html" class="nav-item nav-link nav-mob-sublink">Aktian</a></li>
+              <li class="pt-1 pb-2 py-md-0"><a href="sensores.html" class="nav-item nav-link nav-mob-sublink">Sensores</a></li>
+              <li class="py-2 py-md-0"><a href="novidades.html" class="nav-item nav-link">Novidades</a></li>
+              <li class="py-2 py-md-0"><a href="contato.html" class="nav-item nav-link">Contato</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+    </div>
+    <main>
+      <div class="container-fluid">
+        <div>
+          <section class="hero-home">
+            <div class="ast-container h-100">
+              <div class="d-flex flex-wrap align-items-center justify-content-center pt-lg-5">
+                <div class="col-12 col-lg-6 d-flex flex-column align-items-start gap-3 py-5 py-lg-0">
+                  <span class="section-label" style="color: #005496">Fábrica Inteligente Ókea</span>
+                  <p class="bold-header">Um <span class="cap-bold">ecossistema</span> <span class="cap-bold">completo</span> para as indústrias do futuro.</p>
+                  <p class="regular-header">Conecte produção e manutenção para ganhar visibilidade operacional, rastreabilidade e decisão rápida, do chão da fábrica à gestão.</p>
+                  <div class="d-flex flex-column gap-3 mt-2">
                     <a href="contato.html" class="btn-orange d-flex align-items-center gap-2">
-                        Agendar demonstração
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 30 30" style="flex-shrink:0">
-                            <path d="M65.161,28.82A15.038,15.038,0,1,1,71,30,14.945,14.945,0,0,1,65.161,28.82ZM58.728,15A12.273,12.273,0,1,0,71,2.727,12.287,12.287,0,0,0,58.728,15Zm11.308,6.419a1.364,1.364,0,0,1,0-1.929l3.126-3.126H65.545a1.363,1.363,0,1,1,0-2.727h7.617l-3.127-3.127a1.364,1.364,0,0,1,1.928-1.928l5.455,5.455a1.361,1.361,0,0,1-.388,1.137l-5.455,5.455a1.364,1.364,0,0,1-1.928,0Z" transform="translate(-56)" fill="#fff"/>
-                        </svg>
+                      Agendar demonstração
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 30 30" style="flex-shrink: 0">
+                        <path d="M65.161,28.82A15.038,15.038,0,1,1,71,30,14.945,14.945,0,0,1,65.161,28.82ZM58.728,15A12.273,12.273,0,1,0,71,2.727,12.287,12.287,0,0,0,58.728,15Zm11.308,6.419a1.364,1.364,0,0,1,0-1.929l3.126-3.126H65.545a1.363,1.363,0,1,1,0-2.727h7.617l-3.127-3.127a1.364,1.364,0,0,1,1.928-1.928l5.455,5.455a1.361,1.361,0,0,1-.388,1.137l-5.455,5.455a1.364,1.364,0,0,1-1.928,0Z" transform="translate(-56)" fill="#fff" />
+                      </svg>
                     </a>
-                    <a href="aktian.html" class="btn-line d-flex align-items-center justify-content-center">
-                        7 dias grátis no Aktian
-                    </a>
+                    <a href="aktian.html" class="btn-line d-flex align-items-center justify-content-center"> Conhecer o Aktian </a>
+                  </div>
                 </div>
+                <div class="col-12 col-lg-6 p-4">
+                  <img src="img/img-hero.svg" alt="Okea Asterian" class="img-fluid" />
+                </div>
+              </div>
             </div>
-            <div class="col-12 col-lg-6 p-4">
-                <img src="img/img-hero.svg" alt="Okea Asterian" class="img-fluid">
-            </div>
-        </div>
-    </div>
-</section>
-    <section class="py-5 bg-white clients-home">
-    <div class="clients-ticker-wrap">
-        <div class="clients-ticker">
-            <div class="clients-ticker__fade clients-ticker__fade--left"></div>
-            <div class="clients-ticker__fade clients-ticker__fade--right"></div>
+          </section>
+          <section class="py-5 bg-white clients-home">
+            <div class="clients-ticker-wrap">
+              <div class="clients-ticker">
+                <div class="clients-ticker__fade clients-ticker__fade--left"></div>
+                <div class="clients-ticker__fade clients-ticker__fade--right"></div>
 
-            
-            <div class="clients-row clients-row--right">
-                <img src="img/clients/aniger.png"  alt="Aniger"     class="client-logo-static">
-                <img src="img/clients/hering.png"  alt="Hering"     class="client-logo-static">
-                <img src="img/clients/kyly.png"    alt="Kyly"       class="client-logo-static">
-                <img src="img/clients/lunelli.png" alt="Lunelli"    class="client-logo-static">
-                <img src="img/clients/aniger.png"  alt="" aria-hidden="true" class="client-logo-static">
-                <img src="img/clients/hering.png"  alt="" aria-hidden="true" class="client-logo-static">
-                <img src="img/clients/kyly.png"    alt="" aria-hidden="true" class="client-logo-static">
-                <img src="img/clients/lunelli.png" alt="" aria-hidden="true" class="client-logo-static">
-                <img src="img/clients/aniger.png"  alt="" aria-hidden="true" class="client-logo-static">
-                <img src="img/clients/hering.png"  alt="" aria-hidden="true" class="client-logo-static">
-                <img src="img/clients/kyly.png"    alt="" aria-hidden="true" class="client-logo-static">
-                <img src="img/clients/lunelli.png" alt="" aria-hidden="true" class="client-logo-static">
-                <img src="img/clients/aniger.png"  alt="" aria-hidden="true" class="client-logo-static">
-                <img src="img/clients/hering.png"  alt="" aria-hidden="true" class="client-logo-static">
-                <img src="img/clients/kyly.png"    alt="" aria-hidden="true" class="client-logo-static">
-                <img src="img/clients/lunelli.png" alt="" aria-hidden="true" class="client-logo-static">
-            </div>
+                <div class="clients-row clients-row--right">
+                  <img src="img/clients/aniger.png" alt="Aniger" class="client-logo-static" />
+                  <img src="img/clients/hering.png" alt="Hering" class="client-logo-static" />
+                  <img src="img/clients/kyly.png" alt="Kyly" class="client-logo-static" />
+                  <img src="img/clients/lunelli.png" alt="Lunelli" class="client-logo-static" />
+                  <img src="img/clients/aniger.png" alt="" aria-hidden="true" class="client-logo-static" />
+                  <img src="img/clients/hering.png" alt="" aria-hidden="true" class="client-logo-static" />
+                  <img src="img/clients/kyly.png" alt="" aria-hidden="true" class="client-logo-static" />
+                  <img src="img/clients/lunelli.png" alt="" aria-hidden="true" class="client-logo-static" />
+                  <img src="img/clients/aniger.png" alt="" aria-hidden="true" class="client-logo-static" />
+                  <img src="img/clients/hering.png" alt="" aria-hidden="true" class="client-logo-static" />
+                  <img src="img/clients/kyly.png" alt="" aria-hidden="true" class="client-logo-static" />
+                  <img src="img/clients/lunelli.png" alt="" aria-hidden="true" class="client-logo-static" />
+                  <img src="img/clients/aniger.png" alt="" aria-hidden="true" class="client-logo-static" />
+                  <img src="img/clients/hering.png" alt="" aria-hidden="true" class="client-logo-static" />
+                  <img src="img/clients/kyly.png" alt="" aria-hidden="true" class="client-logo-static" />
+                  <img src="img/clients/lunelli.png" alt="" aria-hidden="true" class="client-logo-static" />
+                </div>
 
-            
-            <div class="clients-row clients-row--left">
-                <img src="img/clients/sigvaris.png"   alt="Sigvaris"   class="client-logo-static">
-                <img src="img/clients/jupiter.png"    alt="Júpiter"    class="client-logo-static">
-                <img src="img/clients/renauxview.png" alt="Renauxview" class="client-logo-static">
-                <img src="img/clients/dass.png"       alt="Dass"       class="client-logo-static">
-                <img src="img/clients/sigvaris.png"   alt="" aria-hidden="true" class="client-logo-static">
-                <img src="img/clients/jupiter.png"    alt="" aria-hidden="true" class="client-logo-static">
-                <img src="img/clients/renauxview.png" alt="" aria-hidden="true" class="client-logo-static">
-                <img src="img/clients/dass.png"       alt="" aria-hidden="true" class="client-logo-static">
-                <img src="img/clients/sigvaris.png"   alt="" aria-hidden="true" class="client-logo-static">
-                <img src="img/clients/jupiter.png"    alt="" aria-hidden="true" class="client-logo-static">
-                <img src="img/clients/renauxview.png" alt="" aria-hidden="true" class="client-logo-static">
-                <img src="img/clients/dass.png"       alt="" aria-hidden="true" class="client-logo-static">
-                <img src="img/clients/sigvaris.png"   alt="" aria-hidden="true" class="client-logo-static">
-                <img src="img/clients/jupiter.png"    alt="" aria-hidden="true" class="client-logo-static">
-                <img src="img/clients/renauxview.png" alt="" aria-hidden="true" class="client-logo-static">
-                <img src="img/clients/dass.png"       alt="" aria-hidden="true" class="client-logo-static">
+                <div class="clients-row clients-row--left">
+                  <img src="img/clients/sigvaris.png" alt="Sigvaris" class="client-logo-static" />
+                  <img src="img/clients/jupiter.png" alt="Júpiter" class="client-logo-static" />
+                  <img src="img/clients/renauxview.png" alt="Renauxview" class="client-logo-static" />
+                  <img src="img/clients/dass.png" alt="Dass" class="client-logo-static" />
+                  <img src="img/clients/sigvaris.png" alt="" aria-hidden="true" class="client-logo-static" />
+                  <img src="img/clients/jupiter.png" alt="" aria-hidden="true" class="client-logo-static" />
+                  <img src="img/clients/renauxview.png" alt="" aria-hidden="true" class="client-logo-static" />
+                  <img src="img/clients/dass.png" alt="" aria-hidden="true" class="client-logo-static" />
+                  <img src="img/clients/sigvaris.png" alt="" aria-hidden="true" class="client-logo-static" />
+                  <img src="img/clients/jupiter.png" alt="" aria-hidden="true" class="client-logo-static" />
+                  <img src="img/clients/renauxview.png" alt="" aria-hidden="true" class="client-logo-static" />
+                  <img src="img/clients/dass.png" alt="" aria-hidden="true" class="client-logo-static" />
+                  <img src="img/clients/sigvaris.png" alt="" aria-hidden="true" class="client-logo-static" />
+                  <img src="img/clients/jupiter.png" alt="" aria-hidden="true" class="client-logo-static" />
+                  <img src="img/clients/renauxview.png" alt="" aria-hidden="true" class="client-logo-static" />
+                  <img src="img/clients/dass.png" alt="" aria-hidden="true" class="client-logo-static" />
+                </div>
+              </div>
             </div>
-        </div>
-    </div>
-</section>
-    <section class="home-problem-section py-5">
-    <div class="container py-4">
-        <div class="row align-items-center g-5">
-            <div class="col-12 col-lg-6">
-                <span class="section-label">O problema que a Ókea resolve</span>
-                <h2 class="bold-gray mt-3">
-                    Quando a operação não está visível, o turno <span class="text-brand">decide no escuro.</span>
-                </h2>
-                <p class="regular-gray-2 mt-4">
-                    Sem padrão de registro e sem dados em tempo real, paradas viram recorrência, o planejado se perde no meio do caminho e a liderança reage tarde. A ÓKEA organiza a rotina e transforma eventos da fábrica em informação confiável para agir na hora certa.
-                </p>
+          </section>
+          <section class="home-problem-section py-5">
+            <div class="container py-4">
+              <div class="row align-items-center g-5">
+                <div class="col-12 col-lg-6">
+                  <span class="section-label">O problema que a Ókea resolve</span>
+                  <h2 class="bold-gray mt-3">Quando a operação não está visível, o turno <span class="text-brand">decide no escuro.</span></h2>
+                  <p class="regular-gray-2 mt-4">Sem padrão de registro e sem dados em tempo real, paradas viram recorrência, o planejado se perde no meio do caminho e a liderança reage tarde. A ÓKEA organiza a rotina e transforma eventos da fábrica em informação confiável para agir na hora certa.</p>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <img src="img/img-hero-foto.jpg" alt="Operador industrial com tablet" class="img-fluid problem-photo" />
+                </div>
+              </div>
             </div>
-            <div class="col-12 col-lg-6">
-                <img src="img/img-hero-foto.jpg" alt="Operador industrial com tablet" class="img-fluid problem-photo">
-            </div>
-        </div>
-    </div>
-</section>
-    <section class="hs-section">
-    <div class="hs-container">
-        <div class="hs-header">
-            <span class="section-label">O Ecossistema Ókea</span>
-            <h2 class="bold-gray hs-title">
-                Soluções que se conectam para dar <span class="text-brand">controle da operação.</span>
-            </h2>
-        </div>
-        <div class="hs-grid">
-            <!-- Asterian -->
-            <div class="hs-card">
-                <div class="hs-card-top">
+          </section>
+          <section class="hs-section">
+            <div class="hs-container">
+              <div class="hs-header">
+                <span class="section-label">O Ecossistema Ókea</span>
+                <h2 class="bold-gray hs-title">Soluções que se conectam para dar <span class="text-brand">controle da operação.</span></h2>
+              </div>
+              <div class="hs-grid">
+                <!-- Asterian -->
+                <div class="hs-card">
+                  <div class="hs-card-top">
                     <div class="hs-icon-wrap hs-icon-blue">
-                        <i data-lucide="bar-chart-2"></i>
+                      <i data-lucide="bar-chart-2"></i>
                     </div>
+                  </div>
+                  <h3 class="hs-card-title">Asterian, MES de execução da produção</h3>
+                  <p class="hs-card-desc">Acompanhe planejado x executado, produtividade, paradas e indicadores por turno, linha, máquina e equipe.</p>
+                  <a href="solucoes.html" class="hs-card-link">Ver Asterian →</a>
                 </div>
-                <h3 class="hs-card-title">Asterian, MES de execução da produção</h3>
-                <p class="hs-card-desc">Acompanhe planejado x executado, produtividade, paradas e indicadores por turno, linha, máquina e equipe.</p>
-                <a href="solucoes.html" class="hs-card-link">Ver Asterian →</a>
-            </div>
-            <!-- Aktian -->
-            <div class="hs-card">
-                <div class="hs-card-top">
+                <!-- Aktian -->
+                <div class="hs-card">
+                  <div class="hs-card-top">
                     <div class="hs-icon-wrap hs-icon-blue">
-                        <i data-lucide="wrench"></i>
+                      <i data-lucide="wrench"></i>
                     </div>
                     <span class="hs-badge hs-badge-blue">NOVO</span>
+                  </div>
+                  <h3 class="hs-card-title">Aktian, gestão de manutenção industrial</h3>
+                  <p class="hs-card-desc">Abra solicitações, execute ordens, registre horas, insumos e histórico por ativo com visibilidade para gestão.</p>
+                  <a href="solucoes.html" class="hs-card-link">Ver Aktian →</a>
                 </div>
-                <h3 class="hs-card-title">Aktian, gestão de manutenção industrial</h3>
-                <p class="hs-card-desc">Abra solicitações, execute ordens, registre horas, insumos e histórico por ativo com visibilidade para gestão.</p>
-                <a href="solucoes.html" class="hs-card-link">Ver Aktian →</a>
-            </div>
-            <!-- Sensores -->
-            <div class="hs-card">
-                <div class="hs-card-top">
+                <!-- Sensores -->
+                <div class="hs-card">
+                  <div class="hs-card-top">
                     <div class="hs-icon-wrap hs-icon-orange">
-                        <i data-lucide="activity"></i>
+                      <i data-lucide="activity"></i>
                     </div>
                     <span class="hs-badge hs-badge-orange">EM BREVE</span>
+                  </div>
+                  <h3 class="hs-card-title">Sensores de energia e vibração</h3>
+                  <p class="hs-card-desc">Monitoramento de consumo de energia e condição de ativos por vibração, como próximos passos da plataforma.</p>
+                  <a href="solucoes.html" class="hs-card-link">Ver visão de futuro →</a>
                 </div>
-                <h3 class="hs-card-title">Sensores de energia e vibração</h3>
-                <p class="hs-card-desc">Monitoramento de consumo de energia e condição de ativos por vibração, como próximos passos da plataforma.</p>
-                <a href="solucoes.html" class="hs-card-link">Ver visão de futuro →</a>
+              </div>
             </div>
-        </div>
-    </div>
-</section>
-    <section class="home-integration-section">
-    <div class="container-fluid">
-        <div class="container-fluid home-integration overflow-hidden">
-            <div class="container pt-5 px-4 pb-5">
-                <h2 class="bold-gray text-center trigger-1">
-                    A integração é um segredo que estamos <span class="text-brand">prontos para compartilhar.</span>
-                </h2>
-                <p class="regular-gray-2 text-center mt-4">
-                    O ecossistema ÓKEA integra os processos de produção e manutenção a nível industrial.<br>
+          </section>
+          <section class="home-integration-section">
+            <div class="container-fluid">
+              <div class="container-fluid home-integration overflow-hidden">
+                <div class="container pt-5 px-4 pb-5">
+                  <h2 class="bold-gray text-center trigger-1">A integração é um segredo que estamos <span class="text-brand">prontos para compartilhar.</span></h2>
+                  <p class="regular-gray-2 text-center mt-4">
+                    O ecossistema ÓKEA integra os processos de produção e manutenção a nível industrial.<br />
                     Uma parada registrada no Asterian já dispara o chamado no Aktian.
-                </p>
+                  </p>
 
-                <img src="img/asterian-tela.png" alt="Sistema Asterian e Aktian integrados" class="tela mt-5">
+                  <img src="img/asterian-tela.png" alt="Sistema Asterian e Aktian integrados" class="tela mt-5" />
 
-                <h2 class="bold-gray text-center mt-5">
-                    Sinta a liberdade que o controle sobre a sua <span class="text-brand">produção proporciona.</span>
-                </h2>
-            </div>
-        </div>
-    </div>
-</section>
-    <section class="hf-section">
-    <div class="hf-container">
-        <span class="section-label">Para quem é</span>
-        <div class="hf-heading">
-            <h2 class="bold-gray">Feito para a realidade operacional da <span class="text-brand">indústria brasileira.</span></h2>
-        </div>
-        <div class="hf-unified-card">
-            <div class="hf-col">
-                <div class="hf-icon-wrap">
-                    <img src="img/icon-feat-operacao.svg" width="22" height="22" alt="Operação">
+                  <h2 class="bold-gray text-center mt-5">Sinta a liberdade que o controle sobre a sua <span class="text-brand">produção proporciona.</span></h2>
                 </div>
-                <h4 class="hf-col-title">Operação</h4>
-                <p class="hf-col-desc">Apontamentos claros, prioridades do turno e gestão visual no chão da fábrica.</p>
+              </div>
             </div>
-            <div class="hf-divider"></div>
-            <div class="hf-col">
-                <div class="hf-icon-wrap">
-                    <img src="img/icon-feat-lideranca.svg" width="22" height="22" alt="Liderança">
+          </section>
+          <section class="hf-section">
+            <div class="hf-container">
+              <span class="section-label">Para quem é</span>
+              <div class="hf-heading">
+                <h2 class="bold-gray">Feito para a realidade operacional da <span class="text-brand">indústria brasileira.</span></h2>
+              </div>
+              <div class="hf-unified-card">
+                <div class="hf-col">
+                  <div class="hf-icon-wrap">
+                    <img src="img/icon-feat-operacao.svg" width="22" height="22" alt="Operação" />
+                  </div>
+                  <h4 class="hf-col-title">Operação</h4>
+                  <p class="hf-col-desc">Apontamentos claros, prioridades do turno e gestão visual no chão da fábrica.</p>
                 </div>
-                <h4 class="hf-col-title">Liderança</h4>
-                <p class="hf-col-desc">Metas, desvios e desempenho por linha e equipe, com leitura rápida.</p>
-            </div>
-            <div class="hf-divider"></div>
-            <div class="hf-col">
-                <div class="hf-icon-wrap">
-                    <img src="img/icon-feat-gestao.svg" width="22" height="22" alt="Gestão">
+                <div class="hf-divider"></div>
+                <div class="hf-col">
+                  <div class="hf-icon-wrap">
+                    <img src="img/icon-feat-lideranca.svg" width="22" height="22" alt="Liderança" />
+                  </div>
+                  <h4 class="hf-col-title">Liderança</h4>
+                  <p class="hf-col-desc">Metas, desvios e desempenho por linha e equipe, com leitura rápida.</p>
                 </div>
-                <h4 class="hf-col-title">Gestão</h4>
-                <p class="hf-col-desc">Histórico confiável e indicadores para melhoria contínua da operação.</p>
+                <div class="hf-divider"></div>
+                <div class="hf-col">
+                  <div class="hf-icon-wrap">
+                    <img src="img/icon-feat-gestao.svg" width="22" height="22" alt="Gestão" />
+                  </div>
+                  <h4 class="hf-col-title">Gestão</h4>
+                  <p class="hf-col-desc">Histórico confiável e indicadores para melhoria contínua da operação.</p>
+                </div>
+              </div>
             </div>
-        </div>
-    </div>
-</section>
-    <section class="hm-section">
-    <div class="hm-container">
-        <div class="hm-left">
-            <span class="section-label">Resultados</span>
-            <h2 class="bold-gray hm-title">
-                Resultados que a fábrica <span class="text-brand">consegue enxergar.</span>
-            </h2>
-            <p class="hm-desc">
-                Resultados alcançados em diferentes operações industriais, traduzidos em ganhos de produtividade, redução de perdas e maior controle dos processos.
-            </p>
-        </div>
-        <div class="hm-right">
-            <div class="hm-grid">
-                <div class="hm-card">
+          </section>
+          <section class="hm-section">
+            <div class="hm-container">
+              <div class="hm-left">
+                <span class="section-label">Resultados</span>
+                <h2 class="bold-gray hm-title">Resultados que a fábrica <span class="text-brand">consegue enxergar.</span></h2>
+                <p class="hm-desc">Resultados alcançados em diferentes operações industriais, traduzidos em ganhos de produtividade, redução de perdas e maior controle dos processos.</p>
+              </div>
+              <div class="hm-right">
+                <div class="hm-grid">
+                  <div class="hm-card">
                     <p class="hm-card-label">PARADAS RECORRENTES</p>
                     <div class="hm-card-row">
-                        <span class="hm-number">-38</span>
-                        <span class="hm-suffix">% recorrência</span>
+                      <span class="hm-number">-38</span>
+                      <span class="hm-suffix">% recorrência</span>
                     </div>
-                </div>
-                <div class="hm-card">
+                  </div>
+                  <div class="hm-card">
                     <p class="hm-card-label">VARIAÇÃO ENTRE TURNOS</p>
                     <div class="hm-card-row">
-                        <span class="hm-number">+22</span>
-                        <span class="hm-suffix">% padrão</span>
+                      <span class="hm-number">+22</span>
+                      <span class="hm-suffix">% padrão</span>
                     </div>
-                </div>
-                <div class="hm-card">
+                  </div>
+                  <div class="hm-card">
                     <p class="hm-card-label">PREVISIBILIDADE</p>
                     <div class="hm-card-row">
-                        <span class="hm-number">+19</span>
-                        <span class="hm-suffix">% OEE</span>
+                      <span class="hm-number">+19</span>
+                      <span class="hm-suffix">% OEE</span>
                     </div>
-                </div>
-                <div class="hm-card">
+                  </div>
+                  <div class="hm-card">
                     <p class="hm-card-label">RASTREABILIDADE</p>
                     <div class="hm-card-row">
-                        <span class="hm-number">100</span>
-                        <span class="hm-suffix">% registros</span>
+                      <span class="hm-number">100</span>
+                      <span class="hm-suffix">% registros</span>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
-        </div>
-    </div>
-</section>
-    <section class="ht-section">
-    <div class="ht-container">
-        <div class="ht-header">
-            <span class="section-label" style="justify-content:center">Depoimentos</span>
-            <h2 class="bold-gray ht-title">
-                Aprovado por grandes empresas de <span class="text-brand">diversos segmentos</span>.
-            </h2>
-        </div>
-        <div class="ht-grid">
-            <div class="ht-card">
-                <div class="ht-quote">&#x201C;</div>
-                <p class="ht-text">Equipe competente e atenciosa, atendem todas as necessidades com perspicácia. Sempre que fazemos uma solicitação, o atendimento é muito rápido. A plataforma é realmente muito boa e fez toda diferença para a gestão da fábrica.</p>
-                <div class="ht-footer">
-                    <img src="img/testimonial-1.jpg" alt="Diretor Industrial" class="ht-avatar">
+          </section>
+          <section class="ht-section">
+            <div class="ht-container">
+              <div class="ht-header">
+                <span class="section-label" style="justify-content: center">Depoimentos</span>
+                <h2 class="bold-gray ht-title">Aprovado por grandes empresas de <span class="text-brand">diversos segmentos</span>.</h2>
+              </div>
+              <div class="ht-grid">
+                <div class="ht-card">
+                  <div class="ht-quote">&#x201C;</div>
+                  <p class="ht-text">Equipe competente e atenciosa, atendem todas as necessidades com perspicácia. Sempre que fazemos uma solicitação, o atendimento é muito rápido. A plataforma é realmente muito boa e fez toda diferença para a gestão da fábrica.</p>
+                  <div class="ht-footer">
+                    <img src="img/testimonial-1.jpg" alt="Diretor Industrial" class="ht-avatar" />
                     <div>
-                        <p class="ht-name">Diretor Industrial</p>
-                        <p class="ht-company">Renau X View</p>
+                      <p class="ht-name">Diretor Industrial</p>
+                      <p class="ht-company">Renau X View</p>
                     </div>
+                  </div>
                 </div>
-            </div>
-            <div class="ht-card">
-                <div class="ht-quote">&#x201C;</div>
-                <p class="ht-text">A qualidade do produto e dos serviços, aliada a seriedade e parceria da Ókea são os principais diferenciais. Já indiquei e continuo indicando esta grande ferramenta para empresas que necessitem de diferencial competitivo na produção.</p>
-                <div class="ht-footer">
-                    <img src="img/testimonial-2.jpg" alt="Gerente de Operações" class="ht-avatar">
+                <div class="ht-card">
+                  <div class="ht-quote">&#x201C;</div>
+                  <p class="ht-text">A qualidade do produto e dos serviços, aliada a seriedade e parceria da Ókea são os principais diferenciais. Já indiquei e continuo indicando esta grande ferramenta para empresas que necessitem de diferencial competitivo na produção.</p>
+                  <div class="ht-footer">
+                    <img src="img/testimonial-2.jpg" alt="Gerente de Operações" class="ht-avatar" />
                     <div>
-                        <p class="ht-name">Gerente de Operações</p>
-                        <p class="ht-company">Dass</p>
+                      <p class="ht-name">Gerente de Operações</p>
+                      <p class="ht-company">Dass</p>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
-        </div>
-    </div>
-</section>
-    <section class="hcta-section">
-    <div class="hcta-content">
-        <h2 class="hcta-title">Alcance suas metas com mais eficiência</h2>
-        <p class="hcta-desc">Conheça o Asterian com uma demonstração guiada ou experimente o Aktian gratuitamente por 7 dias.</p>
-        <div class="hcta-btns">
-            <a href="contato.html" class="hcta-btn">
-                Demonstração do Asterian
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-            </a>
-            <a href="contato.html" class="hcta-btn">
-                7 dias grátis no Aktian
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-            </a>
-        </div>
-    </div>
-</section>
-
-
-                </div>
+          </section>
+          <section class="hcta-section">
+            <div class="hcta-content">
+              <h2 class="hcta-title">Alcance suas metas com mais eficiência</h2>
+              <p class="hcta-desc">Conheça o Asterian com uma demonstração guiada ou experimente o Aktian gratuitamente por 7 dias.</p>
+              <div class="hcta-btns">
+                <a href="contato.html" class="hcta-btn">
+                  Demonstração do Asterian
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </a>
+                <a href="contato.html" class="hcta-btn">
+                  7 dias grátis no Aktian
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </a>
+              </div>
             </div>
-        </main>
+          </section>
+        </div>
+      </div>
+    </main>
 
-                        <footer class="ft-footer">
-    <div class="ft-main">
+    <footer class="ft-footer">
+      <div class="ft-main">
         <div class="ft-brand">
-            <img src="img/okea-logo-blue.svg" alt="ÓKEA" class="ft-logo">
-            <p class="ft-desc">Atuamos exclusivamente na área de tecnologia, oferecendo soluções de inteligência para a indústria 4.0.</p>
-            <div class="ft-social">
-                <a href="https://www.instagram.com/okeatecnologia/" target="_blank" rel="noopener" class="social-circle" aria-label="Instagram">
-                    <img src="img/icon-social-instagram.svg" alt="Instagram">
-                </a>
-                <a href="https://www.facebook.com/okeatecnologia" target="_blank" rel="noopener" class="social-circle" aria-label="Facebook">
-                    <img src="img/icon-social-facebook.svg" alt="Facebook">
-                </a>
-                <a href="https://www.linkedin.com/company/virtual-loom/" target="_blank" rel="noopener" class="social-circle" aria-label="LinkedIn">
-                    <img src="img/icon-social-linkedin.svg" alt="LinkedIn">
-                </a>
-            </div>
+          <img src="img/okea-logo-blue.svg" alt="ÓKEA" class="ft-logo" />
+          <p class="ft-desc">Atuamos exclusivamente na área de tecnologia, oferecendo soluções de inteligência para a indústria 4.0.</p>
+          <div class="ft-social">
+            <a href="https://www.instagram.com/okeatecnologia/" target="_blank" rel="noopener" class="social-circle" aria-label="Instagram">
+              <img src="img/icon-social-instagram.svg" alt="Instagram" />
+            </a>
+            <a href="https://www.facebook.com/okeatecnologia" target="_blank" rel="noopener" class="social-circle" aria-label="Facebook">
+              <img src="img/icon-social-facebook.svg" alt="Facebook" />
+            </a>
+            <a href="https://www.linkedin.com/company/virtual-loom/" target="_blank" rel="noopener" class="social-circle" aria-label="LinkedIn">
+              <img src="img/icon-social-linkedin.svg" alt="LinkedIn" />
+            </a>
+          </div>
         </div>
         <div class="ft-col">
-            <p class="ft-col-title">PLATAFORMA</p>
-            <a href="asterian.html" class="ft-link">Asterian (MES)</a>
-            <a href="aktian.html" class="ft-link">Aktian</a>
-            <a href="sensores.html" class="ft-link">Sensores</a>
+          <p class="ft-col-title">PLATAFORMA</p>
+          <a href="asterian.html" class="ft-link">Asterian (MES)</a>
+          <a href="aktian.html" class="ft-link">Aktian</a>
+          <a href="sensores.html" class="ft-link">Sensores</a>
         </div>
         <div class="ft-col">
-            <p class="ft-col-title">EMPRESA</p>
-<a href="sobre.html" class="ft-link">Sobre</a>
-            <a href="contato.html" class="ft-link">Contato</a>
+          <p class="ft-col-title">EMPRESA</p>
+          <a href="sobre.html" class="ft-link">Sobre</a>
+          <a href="contato.html" class="ft-link">Contato</a>
         </div>
         <div class="ft-contact">
-            <div class="ft-contact-item">
-                <img src="img/icon-phone.svg" alt="" class="ft-contact-icon">
-                <p class="ft-contact-text">+55 (47) 3255-8383<br>+55 (47) 3255-8384</p>
-            </div>
-            <div class="ft-contact-item">
-                <img src="img/icon-envelope.svg" alt="" class="ft-contact-icon">
-                <p class="ft-contact-text"><a href="mailto:falecom@okea.com.br">falecom@okea.com.br</a></p>
-            </div>
-            <div class="ft-contact-item">
-                <img src="img/icon-mappin.svg" alt="" class="ft-contact-icon">
-                <p class="ft-contact-text">Rodovia Antônio Heil, 3730 Sl 101<br>Nova Brasília — Brusque, SC</p>
-            </div>
+          <div class="ft-contact-item">
+            <img src="img/icon-phone.svg" alt="" class="ft-contact-icon" />
+            <p class="ft-contact-text">+55 (47) 3255-8383<br />+55 (47) 3255-8384</p>
+          </div>
+          <div class="ft-contact-item">
+            <img src="img/icon-envelope.svg" alt="" class="ft-contact-icon" />
+            <p class="ft-contact-text"><a href="mailto:falecom@okea.com.br">falecom@okea.com.br</a></p>
+          </div>
+          <div class="ft-contact-item">
+            <img src="img/icon-mappin.svg" alt="" class="ft-contact-icon" />
+            <p class="ft-contact-text">Rodovia Antônio Heil, 3730 Sl 101<br />Nova Brasília — Brusque, SC</p>
+          </div>
         </div>
-    </div>
-    <div class="ft-divider"></div>
-    <div class="ft-bottom">
+      </div>
+      <div class="ft-divider"></div>
+      <div class="ft-bottom">
         <p class="ft-copy">© 2026 <span>ÓKEA Tecnologia. Asterian® e Aktian® são marcas registradas da ÓKEA.</span></p>
         <p class="ft-copy">okea.com.br</p>
-    </div>
-    <a href="https://jungle.com.br/" target="_blank" rel="noopener" class="ft-agency">
+      </div>
+      <a href="https://jungle.com.br/" target="_blank" rel="noopener" class="ft-agency">
         <span class="ft-agency-label">Design by</span>
-        <img src="img/logo-jungle.svg" alt="Agência Jungle" class="ft-agency-logo">
-    </a>
-</footer>
-        
-        
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+        <img src="img/logo-jungle.svg" alt="Agência Jungle" class="ft-agency-logo" />
+      </a>
+    </footer>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"
-        integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-        <script src="js/scripts.min.js"></script>
-        <script src="js/i18n-data.js"></script>
-        <script src="js/i18n.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/lucide@latest/dist/umd/lucide.min.js"></script>
-        <script>lucide.createIcons();</script>
-    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/scripts.min.js"></script>
+    <script src="js/i18n-data.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script>
+      lucide.createIcons()
+    </script>
+  </body>
 </html>
