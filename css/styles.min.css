@@ -862,9 +862,9 @@ div.carousel-nav-icon>svg {
 
 .bold-header {
     font-family: 'capturaregular', sans-serif;
-    font-size: 4rem;
+    font-size: 51px;
     color: #fff;
-    letter-spacing: -3.5px;
+    letter-spacing: -2.5px;
     line-height: 1.15;
 }
 .cap-bold { font-family: 'capturabold', sans-serif; }
@@ -1721,9 +1721,9 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
 }
 .ast-hero-title {
     font-family: 'capturaregular', sans-serif;
-    font-size: 56px;
+    font-size: 51px;
     line-height: 1.1;
-    letter-spacing: -2.8px;
+    letter-spacing: -2.5px;
     color: #fff;
     margin: 0;
 }
@@ -2276,7 +2276,7 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
 /* ============================================================
    SENSORES (página IoT) — reusa .ast-hero/.ast-container/.akt-*
    ============================================================ */
-.sen-hero .ast-hero-title { font-size: 52px; letter-spacing: -2.6px; }
+.sen-hero .ast-hero-title { font-size: 51px; letter-spacing: -2.5px; }
 .sen-hero-btns { display: flex; gap: 16px; flex-wrap: wrap; align-items: center; }
 .sen-btn-outline-white {
     display: inline-flex;
@@ -2547,9 +2547,9 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
 .nv-hero-inner { display: flex; flex-direction: column; align-items: center; gap: 16px; }
 .nv-hero-title {
     font-family: 'capturaregular', sans-serif;
-    font-size: 56px;
+    font-size: 51px;
     line-height: 1.1;
-    letter-spacing: -2.8px;
+    letter-spacing: -2.5px;
     color: #fff;
     margin: 0;
     max-width: 640px;
@@ -2574,7 +2574,7 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
     align-items: center;
 }
 .nv-hero-copy { display: flex; flex-direction: column; align-items: flex-start; gap: 16px; }
-.nv-hero.has-feat .nv-hero-title { text-align: left; max-width: none; font-size: 48px; letter-spacing: -2px; }
+.nv-hero.has-feat .nv-hero-title { text-align: left; max-width: none; font-size: 51px; letter-spacing: -2.5px; }
 .nv-hero.has-feat .nv-hero-desc { text-align: left; max-width: 520px; }
 
 .nv-feat {
@@ -2837,9 +2837,9 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
 .lp-bg-gray { background: #f5f8fa; }
 
 /* Nav enxuta (conversão) — fundo cyan igual ao .bg-nav das outras páginas */
-.lp-nav { background: var(--brandBlue); position: relative; z-index: 20; }
+.lp-nav { background: var(--brandBlue); position: fixed; top: 0; left: 0; right: 0; z-index: 1030; }
 /* remove o padding-top:90px global do <main> (que aparecia como faixa branca) */
-.lp-nav ~ main { padding-top: 0; }
+.lp-nav ~ main { padding-top: 70px; }
 .lp-nav-inner { display: flex; align-items: center; justify-content: space-between; min-height: 70px; gap: 16px; flex-wrap: wrap; padding: 16px 0; }
 .lp-brand { display: inline-flex; align-items: center; gap: 12px; text-decoration: none; }
 .lp-brand img { height: 34px; width: auto; display: block; }
@@ -2899,8 +2899,8 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
     background: rgba(255, 255, 255, .85); border-radius: 2px; flex-shrink: 0;
 }
 .lp-hero-title {
-    font-family: 'capturaregular', sans-serif; font-size: 48px;
-    line-height: 1.2; letter-spacing: -.83px; color: #fff; margin: 0;
+    font-family: 'capturaregular', sans-serif; font-size: 51px;
+    line-height: 1.2; letter-spacing: -2.5px; color: #fff; margin: 0;
 }
 .lp-hero-title .o { color: #fff; }
 .lp-hero-desc {
@@ -3022,7 +3022,7 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
 .sb-hero-left { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 16px; align-items: flex-start; }
 .sb-hero-title {
     font-family: 'capturabold', sans-serif;
-    font-size: 50px;
+    font-size: 51px;
     line-height: 1.05;
     letter-spacing: -1.6px;
     color: #fff;

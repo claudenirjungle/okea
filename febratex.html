@@ -90,8 +90,8 @@
         .lp-bg-white { background: #fff; }
         .lp-bg-cyan { background: #e1f7fd; }
         .lp-bg-gray { background: #f5f8fa; }
-        .lp-nav { background: var(--brandBlue, #02b7d5); position: relative; z-index: 20; }
-        .lp-nav ~ main { padding-top: 0 !important; }
+        .lp-nav { background: var(--brandBlue, #02b7d5); position: fixed; top: 0; left: 0; right: 0; z-index: 1030; }
+        .lp-nav ~ main { padding-top: 70px !important; }
         .lp-nav-inner { display: flex; align-items: center; justify-content: space-between; min-height: 70px; gap: 16px; flex-wrap: wrap; padding: 16px 0; }
         .lp-brand { display: inline-flex; align-items: center; gap: 12px; text-decoration: none; }
         .lp-brand img { height: 34px; width: auto; display: block; }
@@ -110,7 +110,7 @@
         .lp-hero-left { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 17px; align-items: flex-start; }
         .lp-badge { display: inline-flex; align-items: center; gap: 8px; background: transparent; border: 0; border-radius: 0; padding: 0; font-family: 'capturabold', sans-serif; font-size: 13px; letter-spacing: 1.3px; text-transform: uppercase; color: rgba(255, 255, 255, .85); }
         .lp-badge::before { content: ''; display: inline-block; width: 22px; height: 2px; background: rgba(255, 255, 255, .85); border-radius: 2px; flex-shrink: 0; }
-        .lp-hero-title { font-family: 'capturaregular', sans-serif; font-size: 48px; line-height: 1.2; letter-spacing: -.83px; color: #fff; margin: 0; }
+        .lp-hero-title { font-family: 'capturaregular', sans-serif; font-size: 51px; line-height: 1.2; letter-spacing: -2.5px; color: #fff; margin: 0; }
         .lp-hero-title .o { color: #fff; }
         .lp-hero-desc { font-family: 'capturaregular', sans-serif; font-size: 19px; line-height: 1.55; color: #b6cce0; margin: 0; max-width: 600px; }
         .lp-hero-btns { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; padding-top: 4px; }
