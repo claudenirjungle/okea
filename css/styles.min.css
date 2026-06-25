@@ -871,8 +871,9 @@ div.carousel-nav-icon>svg {
 
 .regular-header {
     font-family: 'capturaregular', sans-serif;
-    font-size: 1.5rem;
-    color: #fff;
+    font-size: 20px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, .78);
 }
 
 .bold-gray {
