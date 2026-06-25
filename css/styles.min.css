@@ -2565,6 +2565,82 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
     text-align: center;
 }
 
+/* Novidades — hero em 2 colunas com card de destaque (post mais recente) */
+.nv-hero.has-feat { text-align: left; }
+.nv-hero.has-feat .nv-hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 56px;
+    align-items: center;
+}
+.nv-hero-copy { display: flex; flex-direction: column; align-items: flex-start; gap: 16px; }
+.nv-hero.has-feat .nv-hero-title { text-align: left; max-width: none; font-size: 48px; letter-spacing: -2px; }
+.nv-hero.has-feat .nv-hero-desc { text-align: left; max-width: 520px; }
+
+.nv-feat {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 18px;
+    overflow: hidden;
+    text-decoration: none;
+    box-shadow: 0 22px 48px rgba(7, 28, 56, .28);
+    transition: 200ms ease-in-out;
+}
+.nv-feat:hover { transform: translateY(-4px); box-shadow: 0 28px 56px rgba(7, 28, 56, .34); }
+.nv-feat-img {
+    height: 240px;
+    background: #3d4076 center / cover no-repeat;
+    display: flex;
+    align-items: flex-start;
+    padding: 18px;
+}
+.nv-feat-badge {
+    background: #f79b42;
+    color: #fff;
+    font-family: 'capturabold', sans-serif;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    padding: 6px 14px;
+    border-radius: 999px;
+}
+.nv-feat-body { padding: 26px 28px 28px; display: flex; flex-direction: column; gap: 10px; }
+.nv-feat-cat {
+    font-family: 'capturabold', sans-serif;
+    font-size: 13px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #00b7d5;
+}
+.nv-feat-title {
+    font-family: 'capturabold', sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #0E2A52;
+    margin: 0;
+}
+.nv-feat-desc {
+    font-family: 'capturaregular', sans-serif;
+    font-size: 15.5px;
+    line-height: 1.5;
+    color: #45525e;
+    margin: 0;
+}
+.nv-feat-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 4px;
+    font-family: 'capturabold', sans-serif;
+    font-size: 15px;
+    color: #f79b42;
+}
+@media (max-width: 991px) {
+    .nv-hero.has-feat .nv-hero-grid { grid-template-columns: 1fr; gap: 36px; }
+    .nv-hero.has-feat .nv-hero-title { font-size: 38px; letter-spacing: -1.4px; }
+}
+
 /* Filtros (abas) */
 .nv-filters {
     display: flex;
@@ -2771,12 +2847,12 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
 /* CTA laranja SEM brilho/sombra */
 .lp-nav-cta {
     display: inline-flex; align-items: center; gap: 10px;
-    background: #f89c43; border: 0; border-radius: 99px;
+    background: #15202b; border: 0; border-radius: 99px;
     padding: 10px 24px; color: #fff; text-decoration: none;
     font-family: 'capturabold', sans-serif; font-size: 15px;
     box-shadow: none; transition: 200ms ease-in-out;
 }
-.lp-nav-cta:hover { background: #e8892f; color: #fff; }
+.lp-nav-cta:hover { background: #000; color: #fff; }
 
 /* Botões (laranja flat sem brilho + ghost branco) */
 .lp-btn-orange {
@@ -2813,10 +2889,14 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
 .lp-hero-grid { display: flex; gap: 40px; align-items: center; }
 .lp-hero-left { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 17px; align-items: flex-start; }
 .lp-badge {
-    display: inline-flex; align-items: center;
-    background: rgba(247, 155, 66, .15); border: 1px solid #f79b42;
-    border-radius: 999px; padding: 5px 24px;
-    font-family: 'capturabold', sans-serif; font-size: 14px; color: #f79b42;
+    display: inline-flex; align-items: center; gap: 8px;
+    background: transparent; border: 0; border-radius: 0; padding: 0;
+    font-family: 'capturabold', sans-serif; font-size: 13px;
+    letter-spacing: 1.3px; text-transform: uppercase; color: rgba(255, 255, 255, .85);
+}
+.lp-badge::before {
+    content: ''; display: inline-block; width: 22px; height: 2px;
+    background: rgba(255, 255, 255, .85); border-radius: 2px; flex-shrink: 0;
 }
 .lp-hero-title {
     font-family: 'capturaregular', sans-serif; font-size: 48px;
