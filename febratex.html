@@ -58,7 +58,9 @@
 
     </head>
     <body>
-        
+        <!-- Landing page é sempre pt-BR (não traduz para EN/ES via i18n.js) -->
+        <script>window.OKEA_FORCE_PT = true;</script>
+
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
             <div class="spinner-border text-primary" role="status" style="width: 7rem; height: 7rem;"></div>
         </div>
@@ -92,7 +94,7 @@
         .lp-nav ~ main { padding-top: 0 !important; }
         .lp-nav-inner { display: flex; align-items: center; justify-content: space-between; min-height: 70px; gap: 16px; flex-wrap: wrap; padding: 16px 0; }
         .lp-brand { display: inline-flex; align-items: center; gap: 12px; text-decoration: none; }
-        .lp-brand img { height: 26px; width: auto; display: block; }
+        .lp-brand img { height: 34px; width: auto; display: block; }
         .lp-brand span { font-family: 'capturabold', sans-serif; font-size: 14px; color: rgba(255, 255, 255, .88); white-space: nowrap; }
         .lp-nav-cta { display: inline-flex; align-items: center; gap: 10px; background: #f89c43; border: 0; border-radius: 99px; padding: 10px 24px; color: #fff; text-decoration: none; font-family: 'capturabold', sans-serif; font-size: 15px; box-shadow: none; transition: 200ms ease-in-out; }
         .lp-nav-cta:hover { background: #e8892f; color: #fff; }
@@ -259,7 +261,7 @@
 </section>
     <section class="lp-section lp-bg-white">
     <div class="ast-container">
-        <div class="akt-head" style="align-items:flex-start;text-align:left;margin-bottom:40px">
+        <div class="akt-head" style="align-items:flex-start;text-align:left;max-width:none;margin:0 0 40px">
             <span class="section-label">COMO FUNCIONA</span>
             <h2 class="akt-h2">Do chamado à decisão, em <span class="text-brand">poucos passos</span>.</h2>
         </div>
@@ -472,10 +474,10 @@
         <p class="ft-copy">© 2026 <span>ÓKEA Tecnologia. Asterian® e Aktian® são marcas registradas da ÓKEA.</span></p>
         <p class="ft-copy">okea.com.br</p>
     </div>
-    <div class="ft-agency">
+    <a href="https://jungle.com.br/" target="_blank" rel="noopener" class="ft-agency">
         <span class="ft-agency-label">Design by</span>
         <img src="img/logo-jungle.svg" alt="Agência Jungle" class="ft-agency-logo">
-    </div>
+    </a>
 </footer>
         
         

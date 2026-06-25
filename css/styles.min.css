@@ -1110,9 +1110,14 @@ div.carousel-nav-icon>svg {
 
 .btn-line:hover {
     transition: 300ms ease-in-out;
-    background-color: var(--brandBlue);
-    border: solid 2px var(--brandBlue);
-    color: #fff;
+    background-color: #fff;
+    border: solid 2px #fff;
+    color: var(--brandBlue);
+}
+
+.btn-line:hover .arrow path {
+    transition: 300ms ease-in-out;
+    fill: var(--brandBlue);
 }
 
 .btn-orange-2 {
@@ -2142,7 +2147,7 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
 }
 
 /* FAQ (accordion nativo <details>) */
-.akt-faq { max-width: 840px; margin: 0 auto; }
+.akt-faq { max-width: 100%; margin: 0 auto; }
 .akt-faq details { border-bottom: 1px solid #dce4eb; }
 .akt-faq summary {
     list-style: none;
@@ -2761,7 +2766,7 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
 .lp-nav ~ main { padding-top: 0; }
 .lp-nav-inner { display: flex; align-items: center; justify-content: space-between; min-height: 70px; gap: 16px; flex-wrap: wrap; padding: 16px 0; }
 .lp-brand { display: inline-flex; align-items: center; gap: 12px; text-decoration: none; }
-.lp-brand img { height: 26px; width: auto; display: block; }
+.lp-brand img { height: 34px; width: auto; display: block; }
 .lp-brand span { font-family: 'capturabold', sans-serif; font-size: 14px; color: rgba(255, 255, 255, .88); white-space: nowrap; }
 /* CTA laranja SEM brilho/sombra */
 .lp-nav-cta {
@@ -2923,7 +2928,8 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
     .lp-hero-title { font-size: 30px; }
 }
 
-.ft-agency{display:flex;align-items:center;justify-content:center;gap:8px;padding:12px 32px 16px;opacity:.7}
+.ft-agency{display:flex;align-items:center;justify-content:center;gap:8px;padding:12px 32px 16px;opacity:.7;text-decoration:none;transition:opacity .2s ease-in-out}
+.ft-agency:hover{opacity:1}
 .ft-agency-label{font-family:'capturaregular',sans-serif;font-size:14px;color:#b6cce0;white-space:nowrap}
 .ft-agency-logo{height:20px;width:auto;display:block}
 
@@ -2966,7 +2972,7 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
     box-shadow: 0 8px 14px rgba(20, 65, 140, .1);
     padding: 32px 52px; width: 100%;
 }
-.sb-dna-badge { flex-shrink: 0; width: 154px; height: 154px; display: block; }
+.sb-dna-badge { flex-shrink: 0; width: 154px; height: 154px; display: block; border-radius: 28px; }
 .sb-dna-title {
     font-family: 'capturabold', sans-serif; font-size: 30px;
     line-height: 1.16; letter-spacing: -.3px; color: #005495; margin: 0 0 13px;

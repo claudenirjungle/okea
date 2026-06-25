@@ -907,7 +907,7 @@ window.OKEA_I18N = {
             "es": "Demostración de Asterian"
         },
         "7 dias grátis no Aktian": {
-            "en": "7 days free on Aktian",
+            "en": "7-day free trial of Aktian",
             "es": "7 días gratis en Aktian"
         },
         "Conteúdos": {
@@ -1453,10 +1453,6 @@ window.OKEA_I18N = {
         "Conecte produção e manutenção para ganhar visibilidade operacional, rastreabilidade e decisão rápida, do chão da fábrica à gestão.": {
             "en": "Connect production and maintenance to gain operational visibility, traceability and fast decisions, from the shop floor to management.",
             "es": "Conecte producción y mantenimiento para ganar visibilidad operativa, trazabilidad y decisiones rápidas, del piso de fábrica a la gestión."
-        },
-        "Conhecer o ecossistema": {
-            "en": "Explore the ecosystem",
-            "es": "Conocer el ecosistema"
         },
         "O problema que a Ókea resolve": {
             "en": "The problem Ókea solves",

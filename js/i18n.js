@@ -16,6 +16,8 @@
   var STORE = 'okea_lang';
 
   function getLang() {
+    // Páginas que devem ficar sempre em pt-BR (ex.: landing page da Febratex).
+    if (window.OKEA_FORCE_PT) return 'pt-BR';
     var l = localStorage.getItem(STORE);
     return LANGS.indexOf(l) >= 0 ? l : 'pt-BR';
   }
