@@ -866,6 +866,7 @@ div.carousel-nav-icon>svg {
     color: #fff;
     letter-spacing: -2.5px;
     line-height: 1.15;
+    margin: 0;
 }
 .cap-bold { font-family: 'capturabold', sans-serif; }
 
@@ -874,6 +875,7 @@ div.carousel-nav-icon>svg {
     font-size: 20px;
     line-height: 1.5;
     color: rgba(255, 255, 255, .78);
+    margin: 0;
 }
 
 .bold-gray {
