@@ -1911,6 +1911,16 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
     grid-template-columns: repeat(3, 1fr);
     gap: 32px;
 }
+/* Modificador: centraliza linhas incompletas (flex em vez de grid) */
+.akt-grid-3.akt-grid-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.akt-grid-3.akt-grid-center > .akt-card {
+    flex: 0 0 calc((100% - 64px) / 3);
+    max-width: calc((100% - 64px) / 3);
+}
 .akt-card {
     background: #fff;
     border: 1px solid #dce4eb;
@@ -2254,6 +2264,7 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
     .akt-h2 { font-size: 30px; }
     .akt-febratex .akt-h2 { font-size: 30px; }
     .akt-grid-3 { grid-template-columns: 1fr 1fr; }
+    .akt-grid-3.akt-grid-center > .akt-card { flex-basis: calc((100% - 32px) / 2); max-width: calc((100% - 32px) / 2); }
     .akt-trial-grid { grid-template-columns: 1fr 1fr; }
     .akt-eco-row { flex-direction: column; }
     .akt-eco-plus { flex: 0 0 auto; padding: 6px 0; }
@@ -2272,6 +2283,7 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
 }
 @media (max-width: 600px) {
     .akt-grid-3 { grid-template-columns: 1fr; }
+    .akt-grid-3.akt-grid-center > .akt-card { flex-basis: 100%; max-width: 100%; }
     .akt-trial-grid { grid-template-columns: 1fr; }
     .akt-feb-card { padding: 24px 22px; }
 }
