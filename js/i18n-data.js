@@ -626,14 +626,6 @@ window.OKEA_I18N = {
             "en": "Access to all Aktian features.",
             "es": "Acceso a todos los recursos de Aktian."
         },
-        "Sem cartão": {
-            "en": "No card",
-            "es": "Sin tarjeta"
-        },
-        "Não pedimos dados de pagamento.": {
-            "en": "We do not ask for payment details.",
-            "es": "No pedimos datos de pago."
-        },
         "Onboarding rápido": {
             "en": "Fast onboarding",
             "es": "Onboarding rápido"

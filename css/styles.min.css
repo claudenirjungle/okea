@@ -2210,7 +2210,7 @@ p,a,li,td,th,input,textarea,button,label{font-family:'capturaregular',sans-serif
 /* TRIAL / CTA */
 .akt-trial-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 16px;
     width: 100%;
     margin-bottom: 40px;
